@@ -12,6 +12,22 @@
         </div>
       </div>
     </section>
+  <section class="section middle-section">
+      <div class="tile is-ancestor middle-left-section">
+        <div class="tile is-6 is-parent">
+          <div class="tile is-child box">
+            <p class="title title-white">Open Source</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          </div>
+        </div>
+        <div class="tile is-6 is-parent middle-right-section">
+          <div class="tile is-child box">
+            <p class="title title-black">Mudah Digunakan</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
