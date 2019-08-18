@@ -12,7 +12,7 @@
         </div>
       </div>
     </section>
-  <section class="section middle-section">
+    <section class="section middle-section">
       <div class="tile is-ancestor middle-left-section">
         <div class="tile is-6 is-parent">
           <div class="tile is-child box">
@@ -29,7 +29,29 @@
               <span class="icon is-large"><i class="fas fa-infinity"></i></span>
               RUMUS ABADI
             </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            <p>Pustaka ini memakai perhitungan dari rumus abadi Kalender Jawa dan rumus matematis abadi ini dapat anda dapatkan melalui API.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section middle-section">
+      <div class="tile is-ancestor middle-left-section">
+        <div class="tile is-6 is-parent">
+          <div class="tile is-child box">
+            <p class="title title-fitur">
+              <span class="icon is-large"><i class="fab fa-js-square"></i></span>
+              JAVASCRIPT
+            </p>
+            <p>Pustaka ini tersedia melalui browser maupun npm sehingga anda bisa memakainya dalam membangun berbagai project web, desktop maupun aplikasi mobile.</p>
+          </div>
+        </div>
+        <div class="tile is-6 is-parent middle-right-section">
+          <div class="tile is-child box">
+            <p class="title title-fitur">
+              <span class="icon is-large"><i class="fas fa-infinity"></i></span>
+              RUMUS ABADI
+            </p>
+            <p>Pustaka ini memakai perhitungan dari rumus abadi Kalender Jawa dan rumus matematis abadi ini dapat anda dapatkan melalui API.</p>
           </div>
         </div>
       </div>
