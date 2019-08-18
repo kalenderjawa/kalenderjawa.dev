@@ -26,8 +26,8 @@
         <div class="tile is-6 is-parent middle-right-section">
           <div class="tile is-child box">
             <p class="title title-fitur">
-              <span class="icon is-large"><i class="fab fa-js"></i></i></span>
-              MUDAH DIGUNAKAN
+              <span class="icon is-large"><i class="fas fa-infinity"></i></span>
+              RUMUS ABADI
             </p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
           </div>
