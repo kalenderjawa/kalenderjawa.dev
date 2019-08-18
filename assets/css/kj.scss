@@ -34,7 +34,13 @@ body {
   letter-spacing: 0.17em;
   line-height: 1;
   margin-left: -0.05em;
-  font-weight: $weight-100;
+  font-weight: $weight-semibold;
+}
+
+.text-quote {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
 .text-deskripsi {
