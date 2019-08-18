@@ -9,7 +9,7 @@
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="container first-container">
       <div class="section">
         <h1 class="text-logo">
           pustaka

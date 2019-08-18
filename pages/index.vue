@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container second-container">
     <section class="section">
       <div class="card">
         <div class="card-content">
@@ -51,7 +51,7 @@
               <span class="icon is-large"><i class="fab fa-discord"></i></span>
               RAMAH PENGEMBANG
             </p>
-            <p>Pustaka ini menyediakan API yang mudah untuk digunakan kalau anda kesulitan silahkan chat ke saluran Discord kami.</p>
+            <p>Pustaka ini menyediakan API, dokumentasi yang lengka sehingga mudah untuk digunakan tetapi kalau anda kesulitan silahkan ngobrol ke saluran Discord kami.</p>
           </div>
         </div>
       </div>
