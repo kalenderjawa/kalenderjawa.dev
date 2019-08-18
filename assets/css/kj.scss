@@ -1,8 +1,7 @@
 // kalendejawa.dev
 // main style
 @charset "utf-8";
-@import '~bulma/sass/utilities/initial-variables'; 
-@import '~bulma/sass/utilities/functions';
+@import '~bulma/sass/utilities/_all.sass'; 
 
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
@@ -39,6 +38,13 @@ footer {
   height: -webkit-fill-available;
 }
 
+.navbar-end {
+  background-color: red;
+}
+
+.navbar-end a {
+  color: white
+}
 // Text Logo 
 .text-logo {
   font-size: $size-2;
