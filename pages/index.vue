@@ -29,7 +29,7 @@
               <span class="icon is-large"><i class="fas fa-infinity"></i></span>
               RUMUS ABADI
             </p>
-            <p>Pustaka ini memakai rumus perhitungan dari rumus abadi Kalender Jawa dan rumus matematis abadi ini dapat anda dapatkan melalui penggunaan API yang mudah.</p>
+            <p>Pustaka ini memakai rumus perhitungan abadi dan rumus matematis ini dapat anda dapatkan degan nudah melalui penggunaan API yang sederhana.</p>
           </div>
         </div>
       </div>
