@@ -20,7 +20,7 @@
               <span class="icon is-large"><i class="fab fa-github"></i></span>
               OPEN SOURCE
             </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            <p>Pustaka ini bersifat sumber terbuka artinya anda bebas melihat kode program sehingga andapun juga bebas untuk menambah fitur maupun mengubahnya menjadi lebih baik.</p>
           </div>
         </div>
         <div class="tile is-6 is-parent middle-right-section">
