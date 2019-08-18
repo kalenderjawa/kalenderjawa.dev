@@ -1,14 +1,29 @@
 // kalendejawa.dev
 // main style
+@charset "utf-8";
 @import '~bulma/sass/utilities/initial-variables'; 
 @import '~bulma/sass/utilities/functions';
+@import url('https://rsms.me/inter/inter.css');
 
+$family-sans-serif: 'Inter', sans-serif;
+
+html { 
+  font-family:  $family-sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html { 
+    font-family: 'Inter var', sans-serif; 
+  }
+}
 // custom
-
+body {
+  font-family: $family-sans-serif;
+}
 
 
 
 
 
 // paling akhir -- last one
-@import '~bulma';
+@import '~bulma/bulma.sass';
