@@ -1,6 +1,6 @@
 <template>
   <div  class="layar">
-    <nav class="navbar">
+    <nav class="navbar is-fixed-top">
       <div class="navbar-menu is-active">
         <div class="navbar-end">
           <a class="navbar-item">API</a>
