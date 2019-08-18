@@ -37,5 +37,9 @@ body {
   font-weight: $weight-100;
 }
 
+.text-deskripsi {
+  font-weight: 200;
+}
+
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
