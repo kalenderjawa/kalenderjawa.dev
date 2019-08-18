@@ -36,5 +36,8 @@
         </p>
       </div>
     </footer>
+    <section class="section bottom-section thin-line">
+      <div></div>
+    </section>
   </div>
 </template>
