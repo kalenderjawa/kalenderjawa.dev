@@ -25,7 +25,7 @@
         </div>
         <div class="tile is-6 is-parent middle-right-section">
           <div class="tile is-child box">
-            <p class="title title-fitur">
+             <p class="title title-fitur">
               <span class="icon is-large"><i class="fas fa-infinity"></i></span>
               RUMUS ABADI
             </p>
@@ -48,10 +48,10 @@
         <div class="tile is-6 is-parent middle-right-section">
           <div class="tile is-child box">
             <p class="title title-fitur">
-              <span class="icon is-large"><i class="fas fa-infinity"></i></span>
-              RUMUS ABADI
+              <span class="icon is-large"><i class="fab fa-discord"></i></span>
+              RAMAH PENGEMBANG
             </p>
-            <p>Pustaka ini memakai perhitungan dari rumus abadi Kalender Jawa dan rumus matematis abadi ini dapat anda dapatkan melalui API.</p>
+            <p>Pustaka ini menyediakan API yang mudah untuk digunakan kalau anda kesulitan silahkan chat ke saluran Discord kami.</p>
           </div>
         </div>
       </div>
