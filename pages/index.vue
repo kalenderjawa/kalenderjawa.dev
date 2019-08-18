@@ -18,7 +18,7 @@
           <div class="tile is-child box">
             <p class="title title-fitur">
               <span class="icon is-large"><i class="fab fa-github"></i></span>
-              Open Source
+              OPEN SOURCE
             </p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
           </div>
@@ -27,7 +27,7 @@
           <div class="tile is-child box">
             <p class="title title-fitur">
               <span class="icon is-large"><i class="fab fa-js"></i></i></span>
-              Mudah Digunakan
+              MUDAH DIGUNAKAN
             </p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
           </div>
