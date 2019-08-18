@@ -91,5 +91,19 @@ footer {
   letter-spacing: -0.05em;
 }
 
+.bottom-section {
+  padding: 0px !important;
+  margin: 0px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.thin-line div {
+  height: 5px;
+  background-image: linear-gradient(135deg, #20c8cc 0%, #ac17cd 80%);
+}
+
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
