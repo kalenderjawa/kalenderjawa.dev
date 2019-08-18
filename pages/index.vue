@@ -29,7 +29,7 @@
               <span class="icon is-large"><i class="fas fa-infinity"></i></span>
               RUMUS ABADI
             </p>
-            <p>Pustaka ini memakai rumus perhitungan abadi dan rumus matematis ini dapat anda dapatkan degan nudah melalui penggunaan API yang sederhana.</p>
+            <p>Pustaka ini memakai rumus perhitungan abadi dan rumus matematis ini dapat anda dapatkan dengan mudah melalui penggunaan API yang sederhana.</p>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
               <span class="icon is-large"><i class="fab fa-discord"></i></span>
               RAMAH PENGEMBANG
             </p>
-            <p>Pustaka ini menyediakan API, dokumentasi yang lengka sehingga mudah untuk digunakan tetapi kalau anda kesulitan silahkan ngobrol ke saluran Discord kami.</p>
+            <p>Pustaka ini menyediakan API & dokumentasi yang lengkap sehingga mudah untuk digunakan, untuk mengenal lebih jauh silahkan ngobrol ke saluran Discord kami.</p>
           </div>
         </div>
       </div>
