@@ -20,6 +20,9 @@ $weight-100: 100;
 $footer-padding: 3rem 1.5rem 3rem;
 $footer-background-color: transparent;
 
+//keep navbar meneu on mobile
+$navbar-breakpoint: 0;
+
 html { 
   font-family:  $family-sans-serif;
   background-color: transparent !important;
