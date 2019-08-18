@@ -10,6 +10,8 @@
 $family-sans-serif: 'Inter', sans-serif;
 $family-monospace: 'Source Code Pro', monospace;
 
+$weight-100: 100;
+
 html { 
   font-family:  $family-sans-serif;
 }
@@ -27,9 +29,12 @@ body {
 
 // Text Logo 
 .text-logo {
+  font-size: $size-2;
   text-transform: uppercase;
   letter-spacing: -0.05em;
   line-height: 1;
+  margin-left: -0.05em;
+  font-weight: $weight-100;
 }
 
 // paling akhir -- last one
