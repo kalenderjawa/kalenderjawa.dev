@@ -21,9 +21,8 @@
           Pustaka JavaScript untuk perhitungan, pengkonversian dan penanggalan abadi Kalender Jawa
         </p>
       </div>
-      <nuxt />
-
     </div>
+    <nuxt />
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
