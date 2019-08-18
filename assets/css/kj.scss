@@ -16,16 +16,21 @@ html {
 
 @supports (font-variation-settings: normal) {
   html { 
-    font-family: 'Inter var', sans-serif; 
+    font-family: 'Inter var', sans-serif;
   }
 }
+
 // custom
 body {
   font-family: $family-sans-serif;
 }
 
-
-
+// Text Logo 
+.text-logo {
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
 
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
