@@ -133,6 +133,14 @@ footer {
   text-align: center;
 }
 
+.top-grad {
+  background-image: linear-gradient(180deg, white, transparent);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
 .second-container {
   padding: 0rem 3.5rem;
   background-color: transparent !important;
