@@ -38,7 +38,7 @@ html {
 // custom
 body {
   font-family: $family-sans-serif;
-  background: url('~assets/images/Keris_Tegak.png') top left no-repeat fixed
+  background: url('~assets/images/Keris_Tegak_v2.png') top left no-repeat fixed
 }
 
 footer {
@@ -99,7 +99,8 @@ footer {
 .text-deskripsi {
   font-weight: 400;
   font-size: 1.2rem;
-  padding: 0px 13rem;
+
+  padding: 0px 5.5rem;
   color: #a7a7a7;
 }
 
@@ -137,7 +138,7 @@ footer {
 }
 
 .second-container > section:first-child {
-  padding: 1rem 7.5rem;
+  padding: 1rem 3.5rem;
 }
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
