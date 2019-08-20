@@ -3,8 +3,8 @@
     <nav class="navbar is-fixed-top">
       <div class="navbar-menu is-active">
         <div class="navbar-end">
-          <a class="navbar-item">API</a>
-          <a class="navbar-item">Dokumentasi</a>
+          <nuxt-link class="navbar-item" to="/api">API</nuxt-link>
+          <nuxt-link class="navbar-item" to="/dokumentasi">Dokumentasi</nuxt-link>
           <a class="navbar-item">Github</a>
         </div>
       </div>
