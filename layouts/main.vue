@@ -27,13 +27,11 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <span>Pustaka Kalender Jawa Abadi</span>
+          <strong>Pustaka Kalender Jawa Abadi</strong>
           <br/>
-          <a href="https://sajen.id">Equan Pr</a> & Kolaborator.
+          Lisensi dari isi website <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>
           <br/>
-          Lisensi kode sumber
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Lisensi dari isi website
-          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          © 2019, <a href="https://sajen.id">Equan Pr</a> & Kolaborator
         </p>
       </div>
     </footer>
