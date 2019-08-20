@@ -27,7 +27,7 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <strong>Pustaka Kalender Jawa Abadi</strong>
+          <span>Pustaka Kalender Jawa Abadi</span>
           <br/>
           Lisensi dari isi website <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>
           <br/>
