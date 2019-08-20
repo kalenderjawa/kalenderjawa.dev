@@ -27,7 +27,8 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <span>Pustaka Kalender Jawa Abadi</span> oleh
+          <span>Pustaka Kalender Jawa Abadi</span>
+          <br/>
           <a href="https://sajen.id">Equan Pr</a> & Kolaborator.
           <br/>
           Lisensi kode sumber
