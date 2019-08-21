@@ -13,6 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@junwatu/kalender-jawa": "git+ssh://git@github.com/junwatu/kalender-jawa.git",
     "@nuxtjs/bulma": "^1.2.1",
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.9.1"
