@@ -23,7 +23,8 @@ export default {
   ** Global CSS
   */
   css: [
-    '@/assets/css/kj.scss'
+    '@/assets/css/kj.scss',
+    '@/node_modules/highlight.js/scss/github.scss'
   ],
   /*
   ** Plugins to load before mounting the App
