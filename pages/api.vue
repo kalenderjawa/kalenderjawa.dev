@@ -4,7 +4,11 @@
       <div class="content">
         <h1 class="title is-medium">API Pustaka Kalender Jawa</h1>
         <span class="api">cariHariPasaranAwalBulanTahunJawa(w,t)</span>
-        <p class="code-deskripsi">Fungsi ini mencari hari dan pasaran untuk awal bulan tahun jawa</p>
+        <div class="code-deskripsi">
+          <p>Metode ini digunakan untuk mencari hari dan pasaran untuk awal bulan pada tahun jawa tertentu.</p>
+          <p>Misalnya:</p>
+          <p>Untuk mencari hari dan pasaran awal bulan <strong>Romadon</strong> pada <strong>1952</strong> Tahun Jawa</p>
+        </div>
         <pre v-highlightjs>
          <code class="javascript">
 import * as KalenderJawa from '@junwatu/kalender-jawa'
