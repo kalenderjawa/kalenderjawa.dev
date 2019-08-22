@@ -1,5 +1,4 @@
-
-<template>
+ <template>
   <div class="columns">
     <div class="column">
       <div class="field">
@@ -7,7 +6,7 @@
       <div class="control">
         <div class="select">
           <select v-model="selected">
-            <option v-for="prop in props" v-bind:value="prop.urutan" v-bind:key="prop.urutan">{{ prop.wulan }}</option>
+            <option v-for="prop in props" v-bind:value="prop.urutan" v-bind:key="prop.urutan">{{capitalizeFirstLetter(prop.wulan)}}</option>
           </select>
        </div>
       </div>
@@ -39,6 +38,9 @@ export default {
       KalenderJawa.cariHariPasaranAwalBulanTahunJawa('mukarom', 1953).then(function (d) {
         // console.log(d)
       })
+    },
+    capitalizeFirstLetter (string) {
+      return string.charAt(0).toUpperCase() + string.slice(1)
     }
   }
 }
