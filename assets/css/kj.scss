@@ -2,7 +2,7 @@
 // main style
 @charset "utf-8";
 @import url('https://rsms.me/inter/inter.css');
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
@@ -11,7 +11,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/brands"; // fab
 
 $family-sans-serif: 'Inter', sans-serif;
-$family-monospace: 'Source Code Pro', monospace;
+$family-monospace: 'IBM Plex Mono', monospace;
 
 $weight-100: 100;
 
