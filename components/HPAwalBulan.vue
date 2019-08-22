@@ -1,5 +1,5 @@
  <template>
-  <div class="columns">
+  <div class="columns code-demo-form">
     <div class="column">
       <div class="field">
         <div class="field">
