@@ -1,8 +1,6 @@
 // kalendejawa.dev
 // main style
 @charset "utf-8";
-@import '~bulma/sass/utilities/_all.sass'; 
-
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
@@ -20,6 +18,7 @@ $weight-100: 100;
 $footer-padding: 3rem 1.5rem 3rem;
 $footer-background-color: transparent;
 
+$radius: 0px;
 //keep navbar meneu on mobile
 //see https://github.com/jgthms/bulma/issues/1445
 $navbar-breakpoint: 0;
@@ -94,12 +93,12 @@ pre {
 
 // Text Logo 
 .text-logo {
-  font-size: $size-2;
+  font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 0.17em;
   line-height: 1;
   margin-left: -0.05em;
-  font-weight: $weight-semibold;
+  font-weight: 600;
 }
 
 .text-quote {
@@ -181,6 +180,11 @@ pre {
 
 .hljs {
   background: none !important;
+  padding: 0px !important;
+}
+
+.code-deskripsi {
+  margin: 20px 0px;
 }
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
