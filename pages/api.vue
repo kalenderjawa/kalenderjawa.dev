@@ -3,7 +3,7 @@
     <section class="section">
       <div class="content">
         <h1 class="title is-medium">Mencari Hari dan Pasaran Awal Bulan Tahun Jawa</h1>
-        <span class="tag is-light">cariHariPasaranAwalBulanTahunJawa(w,t)</span>
+        <span class="api">cariHariPasaranAwalBulanTahunJawa(w,t)</span>
         <p class="code-deskripsi">Fungsi ini mencari hari dan pasaran untuk awal bulan tahun jawa</p>
         <pre v-highlightjs>
          <code class="javascript">
