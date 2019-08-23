@@ -12,13 +12,11 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 $family-sans-serif: 'Inter', sans-serif;
 $family-monospace: 'IBM Plex Mono', monospace;
-
-$weight-100: 100;
-
 $footer-padding: 3rem 1.5rem 3rem;
 $footer-background-color: transparent;
+$weight-100: 100;
+$radius: 0px !important;
 
-$radius: 0px;
 //keep navbar meneu on mobile
 //see https://github.com/jgthms/bulma/issues/1445
 $navbar-breakpoint: 0;
@@ -177,6 +175,10 @@ pre {
   padding: 0rem 3.5rem;
   margin-top: 100px !important;
 }
+
+//.api-container .section .content {
+//  background-color: white;
+//}
 
 .api {
   font-size: 1.5rem;
