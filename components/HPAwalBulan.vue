@@ -17,9 +17,9 @@
           </div>
         </div>
         <div class="field">
-          <label class="label">Tahun</label>
+          <label class="label">Tahun Jawa</label>
           <div class="control">
-            <input class="input" type="text" placeholder="Tahun Jawa" />
+            <input class="input" type="text" placeholder="1867 - 2106" size="4" min="1867" max="2106" required/>
           </div>
         </div>
         <div class="field">
