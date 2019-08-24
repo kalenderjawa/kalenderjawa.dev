@@ -1,4 +1,21 @@
  <template>
+  <div>
+    <h1 class="title is-medium">API Pustaka Kalender Jawa</h1>
+        <span class="api">cariHariPasaranAwalBulanTahunJawa(w,t)</span>
+        <div class="code-deskripsi">
+          <p>Metode ini digunakan untuk mencari hari dan pasaran untuk awal bulan pada tahun jawa tertentu.</p>
+          <p>Misalnya:</p>
+          <p>Untuk mencari hari dan pasaran awal bulan <strong>Romadon</strong> pada <strong>1952</strong> Tahun Jawa</p>
+        </div>
+        <pre v-highlightjs>
+          <code class="javascript">
+  import * as KalenderJawa from '@junwatu/kalender-jawa'
+
+  KalenderJawa.cariHariPasaranAwalBulanTahunJawa('romadon', 1952).then({kH, kP} => {
+    console.log(`${kH.dino} ${kP.pasaran}`) // senen legi
+  })
+          </code>
+        </pre>
   <div class="columns code-demo-form">
     <div class="column">
       <div class="field">
@@ -36,6 +53,7 @@
       <p class="code-demo-result">{{hasil}}</p>
     </div>
   </div>
+  </div>
 </template>
 
 <script>
@@ -54,13 +72,13 @@ export default {
     }
   },
   methods: {
-     async cariHariPasaran () {
-       if( parseInt(this.taunjawa) > 2000 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
-         alert('Masukkan angka antara 1867 - 2106!')
-       } else {
-       const { kH, kP } = await KalenderJawa.cariHariPasaranAwalBulanTahunJawa(this.selected, this.taunjawa)
-       this.hasil = `${kH.dino} ${kP.pasaran}`
-       this.konversi = `1 ${this.capitalizeFirstLetter(KalenderJawa.araningSasi[this.selected-1].wulan)} ${this.taunjawa} J`
+    async cariHariPasaran () {
+      if( parseInt(this.taunjawa) > 2000 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
+        alert('Masukkan angka antara 1867 - 2106!')
+      } else {
+        const { kH, kP } = await KalenderJawa.cariHariPasaranAwalBulanTahunJawa(this.selected, this.taunjawa)
+        this.hasil = `${kH.dino} ${kP.pasaran}`
+        this.konversi = `1 ${this.capitalizeFirstLetter(KalenderJawa.araningSasi[this.selected-1].wulan)} ${this.taunjawa} J`
       }
     },
     capitalizeFirstLetter (string) {
