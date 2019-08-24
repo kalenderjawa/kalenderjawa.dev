@@ -30,7 +30,7 @@
         <p>
           <span>Pustaka Kalender Jawa Abadi</span>
           <br/>
-          Lisensi dari isi website <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>
+          Lisensi dari isi website <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
           <br/>
           © 2019, <a href="https://sajen.id">Equan Pr</a> & Kolaborator
         </p>
