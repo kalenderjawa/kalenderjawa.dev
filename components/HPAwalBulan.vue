@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     async cariHariPasaran () {
-      if( parseInt(this.taunjawa) > 2000 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
+      if( parseInt(this.taunjawa) > 2106 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
         alert('Masukkan angka antara 1867 - 2106!')
       } else {
         const { kH, kP } = await KalenderJawa.cariHariPasaranAwalBulanTahunJawa(this.selected, this.taunjawa)
