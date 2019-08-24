@@ -35,7 +35,6 @@ html {
 // custom
 body {
   font-family: $family-sans-serif;
-  background: url('~assets/images/Keris_Tegak_v2.png') top left no-repeat fixed
 }
 
 footer {
@@ -75,16 +74,20 @@ input:focus:invalid {
 
 .navbar {
   background-color: transparent !important;
+  // box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+
 }
 
 .navbar-end a {
   color: white;
+ 
 }
 
 .navbar-menu {
   padding: 0px !important;
   margin: 0px;
   background-color: transparent !important;
+  //background-image: linear-gradient(135deg, #20c8cc 0%, #ac17cd 80%);
 }
 
 .box {
@@ -133,17 +136,27 @@ input:focus:invalid {
   color: #a7a7a7;
 }
 
+.title-fitur-align {
+  text-align: center
+}
+
+.title-fitur-align .icon {
+  margin-bottom: 20px;
+}
+
 .title-fitur {
   letter-spacing: -0.05em;
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   font-size: 20px !important;
   color: #24292E !important;
-  margin-bottom: 0px !important;
-  margin-left: -10px !important;
+  margin-bottom: 15px !important;
+  letter-spacing: 0.05em;
+  //margin-left: -10px !important;
 }
 
 .fitur-deskripsi {
   color: #586069;
+  text-align: center;
 }
 
 .bottom-section {
