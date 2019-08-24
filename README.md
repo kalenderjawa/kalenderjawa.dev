@@ -1,22 +1,2 @@
-# kalender-jawa-dev
-
-> Kalender Jawa Web
-
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm run install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+# kalenderjawa.dev
+[![Netlify Status](https://api.netlify.com/api/v1/badges/18810e9f-75f8-4c7a-8f29-4d49663456b8/deploy-status)](https://app.netlify.com/sites/happy-chandrasekhar-264754/deploys)
