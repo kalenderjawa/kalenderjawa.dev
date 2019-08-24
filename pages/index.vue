@@ -51,7 +51,7 @@
               <span class="icon is-large"><i class="fab fa-discord"></i></span>
               RAMAH PENGEMBANG
             </p>
-            <p class="fitur-deskripsi">Pustaka ini menyediakan API & dokumentasi yang lengkap sehingga mudah untuk digunakan, untuk mengenal lebih jauh silahkan ngobrol ke saluran Discord kami.</p>
+            <p class="fitur-deskripsi">Pustaka ini menyediakan API & dokumentasi yang lengkap sehingga mudah untuk digunakan. Jika ada kesulitan, saran ataupun kritik silahkan ngobrol ke saluran Discord kami.</p>
           </div>
         </div>
       </div>
