@@ -32,6 +32,7 @@
       </div>
     </div>
     <div class="column">
+      <p class="code-demo-result-title">{{konversi}}</p>
       <p class="code-demo-result">{{hasil}}</p>
     </div>
   </div>
@@ -48,7 +49,8 @@ export default {
       props: KalenderJawa.araningSasi,
       selected: 1,
       taunjawa: 1953,
-      hasil: ''
+      hasil: '',
+      konversi: ''
     }
   },
   methods: {
@@ -58,6 +60,7 @@ export default {
        } else {
        const { kH, kP } = await KalenderJawa.cariHariPasaranAwalBulanTahunJawa(this.selected, this.taunjawa)
        this.hasil = `${kH.dino} ${kP.pasaran}`
+       this.konversi = `1 ${this.capitalizeFirstLetter(KalenderJawa.araningSasi[this.selected-1].wulan)} ${this.taunjawa} J`
       }
     },
     capitalizeFirstLetter (string) {

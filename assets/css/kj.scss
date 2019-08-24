@@ -214,15 +214,22 @@ input:focus:invalid {
 .code-demo-form {
   background-color: whitesmoke !important;
 }
-
+.code-demo-result-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 0px !important;
+}
 .code-demo-result {
   font-size: 2.5em;
-    /* font-style: italic; */
-    text-transform: uppercase;
-    font-family: "Source Code Pro";
-    color: crimson;
-    padding: 1.5em;
-    text-align: center;
+  /* font-style: italic; */
+  text-transform: uppercase;
+  font-family: "Source Code Pro";
+  color: crimson;
+  /* padding: 1.5em; */
+  text-align: left;
+  line-height: 1;
+  margin-left: -0.05em
 }
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
