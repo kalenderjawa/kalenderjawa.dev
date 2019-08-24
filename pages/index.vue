@@ -48,10 +48,10 @@
         <div class="tile is-6 is-parent middle-right-section">
           <div class="tile is-child box">
             <p class="title title-fitur">
-              <span class="icon is-large"><i class="fab fa-discord"></i></span>
+              <span class="icon is-large"><i class="fab fa-slack"></i></span>
               RAMAH PENGEMBANG
             </p>
-            <p class="fitur-deskripsi">Pustaka ini menyediakan API & dokumentasi yang lengkap sehingga mudah untuk digunakan. Jika ada kesulitan, saran ataupun kritik silahkan ngobrol ke saluran Discord kami.</p>
+            <p class="fitur-deskripsi">Pustaka ini dibuat dan didukung oleh komunitas. Jika ada kesulitan, saran ataupun kritik silahkan ngobrol ke saluran komunitas <a href="https://join.slack.com/t/kalender-jawa/shared_invite/enQtNzM3MjA1OTM3OTg5LWExZTEyYTZhYWQ5NGRkOWU0NGZiZjk1Y2ZhY2M5N2E3NWUyYjI0Y2YwNDEyOTFiZTMwYTgxZjEyNzE1YjZiMzk">Slack</a> kami.</p>
           </div>
         </div>
       </div>
