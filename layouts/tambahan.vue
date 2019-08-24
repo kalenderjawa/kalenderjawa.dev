@@ -14,12 +14,12 @@
     <nuxt />
     <footer class="footer">
       <div class="content has-text-centered">
-        <p>
+         <p>
           <span>Pustaka Kalender Jawa Abadi</span>
           <br/>
-          Lisensi dari isi website <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
-          <br/>
           © 2019, <a href="https://sajen.id">Equan Pr</a> & Kolaborator
+          <br/>
+          Lisensi dari isi website <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> | Tentang Website
         </p>
       </div>
     </footer>
