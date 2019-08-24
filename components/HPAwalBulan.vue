@@ -19,19 +19,21 @@
         <div class="field">
           <label class="label">Tahun Jawa</label>
           <div class="control">
-            <input class="input" type="number" placeholder="1867 - 2106" size="4" min="1867" max="2106" required/>
+            <input class="input" name="tj" type="number" placeholder="1867 - 2106" size="4" min="1867" max="2106" required v-model="taunjawa"/>
           </div>
         </div>
         <div class="field">
           <div class="control">
-            <button class="button is-primary">
+            <button class="button is-primary" v-on:click="cariHariPasaran()">
               Cari
             </button>
           </div>
         </div>
       </div>
     </div>
-    <div class="column"></div>
+    <div class="column">
+      <p class="code-demo-result">{{hasil}}</p>
+    </div>
   </div>
 </template>
 
@@ -40,19 +42,23 @@ import * as KalenderJawa from '@junwatu/kalender-jawa'
 
 export default {
   name: 'HPAwalBulan',
+
   data () {
     return {
       props: KalenderJawa.araningSasi,
-      selected: 1
+      selected: 1,
+      taunjawa: 1953,
+      hasil: ''
     }
   },
   methods: {
-    cariHP () {
-      KalenderJawa.cariHariPasaranAwalBulanTahunJawa('mukarom', 1953).then(
-        function (d) {
-          // console.log(d)
-        }
-      )
+     async cariHariPasaran () {
+       if( parseInt(this.taunjawa) > 2000 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
+         alert('Masukkan angka antara 1867 - 2106!')
+       } else {
+       const { kH, kP } = await KalenderJawa.cariHariPasaranAwalBulanTahunJawa(this.selected, this.taunjawa)
+       this.hasil = `${kH.dino} ${kP.pasaran}`
+      }
     },
     capitalizeFirstLetter (string) {
       return string.charAt(0).toUpperCase() + string.slice(1)
