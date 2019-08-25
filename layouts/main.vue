@@ -20,7 +20,7 @@
           kalender jawa
         </h1>
         <p class="text-deskripsi">
-          Pustaka JavaScript untuk perhitungan, pengkonversian dan penanggalan abadi Kalender Jawa
+          Pustaka JavaScript untuk perhitungan, pengkonversian dan penanggalan Kalender Jawa Abadi
         </p>
       </div>
     </div>
