@@ -116,7 +116,7 @@ input:focus:invalid {
 
 // Text Logo 
 .text-logo {
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   text-transform: uppercase;
   letter-spacing: 0.17em;
   line-height: 1;
@@ -204,6 +204,10 @@ input:focus:invalid {
 
 .second-container > section:first-child {
   padding: 1rem 3.5rem;
+}
+
+.second-container .hero {
+  margin-top: 2rem;
 }
 
 .api-container {
