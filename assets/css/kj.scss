@@ -241,6 +241,14 @@ input:focus:invalid {
 .code-demo-form {
   // background-color: whitesmoke !important;
 }
+
+.demo-result {
+  background-color: rgba(245, 245, 245, 0.2);
+  padding: 3rem 1.5rem !important;
+  text-align: center;
+  margin: .7em;
+}
+
 .code-demo-result-title {
   font-size: 1.5rem;
   font-weight: 500;
@@ -254,7 +262,7 @@ input:focus:invalid {
   font-family: "Source Code Pro";
   color: #dc143c;
   /* padding: 1.5em; */
-  text-align: left;
+  // text-align: left;
   line-height: 1;
   margin-left: -0.05em
 }
@@ -280,6 +288,10 @@ input:focus:invalid {
   padding: 67px 35px;
   margin-left: -0.05rem;
   position: absolute;
+}
+
+.field input {
+  max-width: 23em;
 }
 
 // paling akhir -- last one
