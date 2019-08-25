@@ -10,7 +10,7 @@
         <code class="javascript">
 KalenderJawa.cariKurupTahunJawa(1994).then( d => {
   console.log(d.taun.taun) // jimakir
-  console.log(`${d.kurup.taun}_${d.dinten.dino}_${d.kurup.pasaran.pasaran}`)
+  console.log(`${d.kurup.taun}_${d.kurup.dinten.dino}_${d.kurup.pasaran.pasaran}`)
   // alip_senen_pahing (anenhing)
 })
         </code>
@@ -26,7 +26,7 @@ KalenderJawa.cariKurupTahunJawa(1994).then( d => {
         </div>
         <div class="field">
           <div class="control">
-            <button class="button is-primary">
+            <button class="button is-primary" v-on:click="cariKurup()">
               Cari Kurup
             </button>
           </div>
@@ -34,15 +34,39 @@ KalenderJawa.cariKurupTahunJawa(1994).then( d => {
       </div>
     </div>
     <div class="column">
-      <p class="code-demo-result-title"></p>
-      <p class="code-demo-result"></p>
+      <p class="code-demo-result-title">{{konversi}}</p>
+      <p class="code-demo-result">{{hasil}}</p>
     </div>
   </div>
   </div>
 </template>
 
 <script>
+import * as KalenderJawa from '@junwatu/kalender-jawa'
+
 export default {
-  name: 'CKTJawa'
+  name: 'CKTJawa',
+  data () {
+    return {
+      hasil: '',
+      konversi: '',
+      taunjawa: ''
+    }
+  },
+  methods: {
+    async cariKurup () {
+      if( parseInt(this.taunjawa) > 2106 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
+        alert('Masukkan angka antara 1867 - 2106!')
+      } else {
+        const k = await KalenderJawa.cariKurupTahunJawa(parseInt(this.taunjawa))
+        console.log(k)
+        this.hasil = `${k.kurup.taun}_${k.kurup.dinten.dino}_${k.kurup.pasaran.pasaran}`
+        this.konversi = `${this.capitalizeFirstLetter(this.taunjawa)} J`
+      }
+    },
+    capitalizeFirstLetter (string) {
+      return string.charAt(0).toUpperCase() + string.slice(1)
+    }
+  }
 }
 </script>
