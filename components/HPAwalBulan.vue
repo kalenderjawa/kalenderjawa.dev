@@ -42,7 +42,7 @@
         <div class="field">
           <div class="control">
             <button class="button is-dark" v-on:click="cariHariPasaran()">
-              Cari
+              Cari Hari & Pasaran
             </button>
           </div>
         </div>
