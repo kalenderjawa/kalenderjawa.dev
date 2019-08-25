@@ -41,7 +41,7 @@
         </div>
         <div class="field">
           <div class="control">
-            <button class="button is-primary" v-on:click="cariHariPasaran()">
+            <button class="button is-dark" v-on:click="cariHariPasaran()">
               Cari
             </button>
           </div>
