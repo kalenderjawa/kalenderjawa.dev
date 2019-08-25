@@ -46,7 +46,7 @@ KalenderJawa.cariRumusAbadiAwalBulanTahunJawa('romadon', 1952).then(data => {
         </div>
       </div>
     </div>
-    <div class="column">
+    <div class="column demo-result" v-if="ok">
       <p class="code-demo-result-title">{{konversi}}</p>
       <p class="code-demo-result">{{hasil}}</p>
     </div>
@@ -66,19 +66,22 @@ export default {
       selected: 9,
       taunjawa: 1952,
       hasil: '',
-      konversi: ''
+      konversi: '',
+      ok: false
     }
   },
   methods: {
     onChangeEventHandler () {
       this.hasil = ''
       this.konversi = ''
+      this.ok = false
     },
     async cariRumusAbadi () {
       if( parseInt(this.taunjawa) > 2106 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
         alert('Masukkan angka antara 1867 - 2106!')
       } else {
         const data = await KalenderJawa.cariRumusAbadiAwalBulanTahunJawa(this.selected, this.taunjawa)
+        this.ok = true
         this.hasil = `${data.rumus.wulan.wulan}_${data.rumus.dino}_${data.rumus.pasaran}`
         this.konversi = `1 ${this.capitalizeFirstLetter(KalenderJawa.araningSasi[this.selected-1].wulan)} ${this.taunjawa} J`
       }

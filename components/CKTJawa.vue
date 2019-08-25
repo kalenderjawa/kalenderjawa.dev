@@ -33,7 +33,7 @@ KalenderJawa.cariKurupTahunJawa(1994).then( d => {
         </div>
       </div>
     </div>
-    <div class="column">
+    <div class="column demo-result" v-if="ok">
       <p class="code-demo-result-title">{{konversi}}</p>
       <p class="code-demo-result">{{hasil}}</p>
     </div>
@@ -50,13 +50,15 @@ export default {
     return {
       hasil: '',
       konversi: '',
-      taunjawa: ''
+      taunjawa: '',
+      ok: false
     }
   },
   methods: {
     onChangeEventHandler () {
       this.hasil = ''
       this.konversi = ''
+      this.ok = false
     },
     async cariKurup () {
       if( parseInt(this.taunjawa) > 2106 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
@@ -65,6 +67,7 @@ export default {
         const k = await KalenderJawa.cariKurupTahunJawa(parseInt(this.taunjawa))
         this.hasil = `${k.kurup.taun}_${k.kurup.dinten.dino}_${k.kurup.pasaran.pasaran}`
         this.konversi = `${this.capitalizeFirstLetter(this.taunjawa)} J`
+        this.ok = true
       }
     },
     capitalizeFirstLetter (string) {

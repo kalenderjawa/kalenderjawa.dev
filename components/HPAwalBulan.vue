@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div class="column">
+    <div class="column demo-result" v-if="ok">
       <p class="code-demo-result-title">{{konversi}}</p>
       <p class="code-demo-result">{{hasil}}</p>
     </div>
@@ -68,13 +68,15 @@ export default {
       selected: 1,
       taunjawa: 1953,
       hasil: '',
-      konversi: ''
+      konversi: '',
+      ok: false
     }
   },
   methods: {
     onChangeEventHandler () {
       this.hasil = ''
       this.konversi = ''
+      this.ok = false
     },
     async cariHariPasaran () {
       if( parseInt(this.taunjawa) > 2106 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
@@ -83,6 +85,7 @@ export default {
         const { kH, kP } = await KalenderJawa.cariHariPasaranAwalBulanTahunJawa(this.selected, this.taunjawa)
         this.hasil = `${kH.dino} ${kP.pasaran}`
         this.konversi = `1 ${this.capitalizeFirstLetter(KalenderJawa.araningSasi[this.selected-1].wulan)} ${this.taunjawa} J`
+        this.ok = true
       }
     },
     capitalizeFirstLetter (string) {
