@@ -17,7 +17,7 @@
           <div class="columns">
             <div class="column"></div>
             <div class="column is-three-quarters install">
-              <p>npm install --save @kalenderjawa/inti</p>
+              <p>$ npm install --save @kalenderjawa/inti</p>
             </div>
             <div class="column"></div>
           </div>
