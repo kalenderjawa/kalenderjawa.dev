@@ -40,7 +40,7 @@ KalenderJawa.cariRumusAbadiAwalBulanTahunJawa('romadon', 1952).then(data => {
         <div class="field">
           <div class="control">
             <button class="button is-dark" v-on:click="cariRumusAbadi()">
-              Cari
+              Cari Rumus Abadi
             </button>
           </div>
         </div>
