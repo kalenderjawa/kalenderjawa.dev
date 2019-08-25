@@ -59,7 +59,6 @@ export default {
         alert('Masukkan angka antara 1867 - 2106!')
       } else {
         const k = await KalenderJawa.cariKurupTahunJawa(parseInt(this.taunjawa))
-        console.log(k)
         this.hasil = `${k.kurup.taun}_${k.kurup.dinten.dino}_${k.kurup.pasaran.pasaran}`
         this.konversi = `${this.capitalizeFirstLetter(this.taunjawa)} J`
       }
