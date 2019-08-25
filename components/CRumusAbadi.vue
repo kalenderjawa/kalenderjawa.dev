@@ -8,7 +8,7 @@
         </div>
         <pre v-highlightjs>
           <code class="javascript">
-KalenderJawa.cariRumusAbadi('romadon', 1952).then(data => {
+KalenderJawa.cariRumusAbadiAwalBulanTahunJawa('romadon', 1952).then(data => {
   console.log(`${data.rumus.wulan.wulan}_${data.rumus.dino}_${data.rumus.pasaran}`)
   // romadon_7_4 (don tu pat)
 })
@@ -63,7 +63,7 @@ export default {
   data () {
     return {
       props: KalenderJawa.araningSasi,
-      selected: 7,
+      selected: 9,
       taunjawa: 1952,
       hasil: '',
       konversi: ''
