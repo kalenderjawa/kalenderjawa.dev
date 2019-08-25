@@ -12,6 +12,17 @@
         </div>
       </div>
     </section>
+    <section class="hero is-medium">
+        <div class="hero-body">
+          <div class="columns">
+            <div class="column"></div>
+            <div class="column is-three-quarters install">
+              <p>npm install --save @kalenderjawa/inti</p>
+            </div>
+            <div class="column"></div>
+          </div>
+        </div>
+    </section>
     <section class="section middle-section">
       <div class="tile is-ancestor middle-left-section">
         <div class="tile is-6 is-parent">
