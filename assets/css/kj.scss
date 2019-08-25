@@ -10,6 +10,13 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/regular"; // far
 @import "~@fortawesome/fontawesome-free/scss/brands"; // fab
 
+
+$color_dark: hsla(235%, 21%, 21%, 1);
+$color_light: hsla(218%, 17%, 62%, 1);
+$color_lighter: hsla(197%, 24%, 94%, 1);
+$color_red_light: hsla(353%, 86%, 54%, 1);
+$color_red_dark: hsla(350%, 96%, 43%, 1);
+
 $family-sans-serif: 'Inter', sans-serif;
 $family-monospace: 'IBM Plex Mono', monospace;
 $footer-padding: 3rem 1.5rem 3rem;
@@ -24,6 +31,7 @@ $navbar-breakpoint: 0;
 html { 
   font-family:  $family-sans-serif;
   background-color: transparent !important;
+  //background-color: $color_dark !important;
 }
 
 @supports (font-variation-settings: normal) {
@@ -108,7 +116,7 @@ input:focus:invalid {
 
 // Text Logo 
 .text-logo {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: 0.17em;
   line-height: 1;
@@ -190,7 +198,7 @@ input:focus:invalid {
 }
 
 .second-container {
-  padding: 0rem 3.5rem;
+  padding: 4rem 3.5rem;
   background-color: transparent !important;
 }
 
@@ -236,11 +244,22 @@ input:focus:invalid {
   /* font-style: italic; */
   text-transform: uppercase;
   font-family: "Source Code Pro";
-  color: crimson;
+  color: #dc143c;
   /* padding: 1.5em; */
   text-align: left;
   line-height: 1;
   margin-left: -0.05em
 }
+
+.install {
+  text-align: center;
+}
+
+.install p {
+  font-weight: 500;
+  font-family: $family-monospace;
+  font-size: 1.2rem;
+}
+
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
