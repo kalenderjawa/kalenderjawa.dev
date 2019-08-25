@@ -3,6 +3,7 @@
     <section class="section">
       <div class="content">
         <HPAwalBulan/>
+        <CKTJawa/>
       </div>
     </section>
   </div>
@@ -12,13 +13,15 @@
 import Vue from 'vue'
 import VueHighlightJS from 'vue-highlightjs'
 import HPAwalBulan from '~/components/HPAwalBulan.vue'
+import CKTJawa from '~/components/CKTJawa.vue'
 
 Vue.use(VueHighlightJS)
 
 export default {
   layout: 'tambahan',
   components: {
-    HPAwalBulan
+    HPAwalBulan,
+    CKTJawa
   }
 }
 </script>

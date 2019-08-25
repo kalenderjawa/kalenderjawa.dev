@@ -1,5 +1,5 @@
  <template>
-  <div>
+  <div class="api-container-detail">
     <h1 class="title is-medium">API Pustaka Kalender Jawa</h1>
         <span class="api">cariHariPasaranAwalBulanTahunJawa(w,t)</span>
         <div class="code-deskripsi">
