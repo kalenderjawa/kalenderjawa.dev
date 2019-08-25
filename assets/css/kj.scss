@@ -185,7 +185,7 @@ input:focus:invalid {
 
 //final
 .first-container {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 .first-container .section {
@@ -216,12 +216,12 @@ input:focus:invalid {
 
 .api-container {
   padding: 0rem 3.5rem;
-  margin-top: 100px !important;
+  margin-top: 3rem !important;
 }
 
-//.api-container .section .content {
-//  background-color: white;
-//}
+.api-container-detail {
+  margin: 3rem 0;
+}
 
 .api {
   font-size: 1.2rem;
@@ -239,7 +239,7 @@ input:focus:invalid {
 }
 
 .code-demo-form {
-  background-color: whitesmoke !important;
+  // background-color: whitesmoke !important;
 }
 .code-demo-result-title {
   font-size: 1.5rem;
