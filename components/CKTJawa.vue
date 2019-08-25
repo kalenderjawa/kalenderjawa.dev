@@ -21,7 +21,7 @@ KalenderJawa.cariKurupTahunJawa(1994).then( d => {
         <div class="field">
           <label class="label">Tahun Jawa</label>
           <div class="control">
-            <input class="input" name="tj" type="number" placeholder="1867 - 2106" size="4" min="1867" max="2106" required v-model="taunjawa"/>
+            <input class="input" name="tj" type="number" placeholder="1867 - 2106" size="4" min="1867" max="2106" required v-model="taunjawa" v-on:input="onChangeEventHandler()"/>
           </div>
         </div>
         <div class="field">
@@ -54,6 +54,10 @@ export default {
     }
   },
   methods: {
+    onChangeEventHandler () {
+      this.hasil = ''
+      this.konversi = ''
+    },
     async cariKurup () {
       if( parseInt(this.taunjawa) > 2106 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
         alert('Masukkan angka antara 1867 - 2106!')
