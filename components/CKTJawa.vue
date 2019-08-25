@@ -15,6 +15,29 @@ KalenderJawa.cariKurupTahunJawa(1994).then( d => {
 })
         </code>
       </pre>
+      <div class="columns code-demo-form">
+    <div class="column">
+      <div class="field">
+        <div class="field">
+          <label class="label">Tahun Jawa</label>
+          <div class="control">
+            <input class="input" name="tj" type="number" placeholder="1867 - 2106" size="4" min="1867" max="2106" required v-model="taunjawa"/>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <button class="button is-primary">
+              Cari Kurup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <p class="code-demo-result-title"></p>
+      <p class="code-demo-result"></p>
+    </div>
+  </div>
   </div>
 </template>
 
