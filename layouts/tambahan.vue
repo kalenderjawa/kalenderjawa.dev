@@ -1,11 +1,13 @@
 <template>
   <div  class="layar">
-    <nav class="navbar is-fixed-top">
+    <nav class="navbar">
       <div class="navbar-menu is-active">
         <div class="navbar-end">
           <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
           <nuxt-link class="navbar-item" to="/api">API</nuxt-link>
+          <!--
           <nuxt-link class="navbar-item" to="/dokumentasi">Dokumentasi</nuxt-link>
+          -->
           <a class="navbar-item">Github</a>
         </div>
       </div>
