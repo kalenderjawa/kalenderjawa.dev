@@ -1,5 +1,11 @@
 <template>
   <div class="container second-container">
+    <p class="tag">Sedang Dalam Tahap Pembangunan...</p>
+    <br/>
+    <code>Lawang Tunggal Walang Kembar @ 2019</code>
+  </div>
+  <!--
+  <div class="container second-container">
     <section class="section">
       <div class="card">
         <div class="card-content">
@@ -76,10 +82,11 @@
       </div>
     </section>
   </div>
+  -->
 </template>
 
 <script>
 export default {
-  layout: 'main'
+  layout: 'dev'
 }
 </script>
