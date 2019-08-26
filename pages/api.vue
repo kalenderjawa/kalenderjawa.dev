@@ -20,7 +20,7 @@ import CRumusAbadi from '~/components/CRumusAbadi.vue'
 Vue.use(VueHighlightJS)
 
 export default {
-  layout: 'tambahan',
+  layout: 'isi',
   head () {
     return {
     title: 'API - Pustaka Kalender Jawa',
