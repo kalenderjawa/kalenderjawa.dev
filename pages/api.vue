@@ -1,12 +1,10 @@
 <template>
   <div class="container api-container">
-    <section class="section">
       <div class="content">
         <HPAwalBulan/>
         <CKTJawa/>
         <CRumusAbadi/>
       </div>
-    </section>
   </div>
 </template>
 
