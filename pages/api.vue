@@ -21,6 +21,14 @@ Vue.use(VueHighlightJS)
 
 export default {
   layout: 'tambahan',
+  head () {
+    return {
+    title: 'API - Pustaka Kalender Jawa',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Dokumentasi API Pustaka Kalender Jawa' }
+    ]
+    }
+  }, 
   components: {
     HPAwalBulan,
     CKTJawa,
