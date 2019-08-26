@@ -5,9 +5,7 @@
         <div class="navbar-end">
           <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
           <nuxt-link class="navbar-item" to="/api">API</nuxt-link>
-          <!--
           <nuxt-link class="navbar-item" to="/dokumentasi">Dokumentasi</nuxt-link>
-          -->
           <a class="navbar-item" href="https://github.com/kalenderjawa">Github</a>
         </div>
       </div>
@@ -21,7 +19,7 @@
           <br/>
           © 2019, <a href="https://sajen.id">Equan Pr</a> & Kolaborator
           <br/>
-          Lisensi dari isi website <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> | Tentang Website
+          Lisensi dari isi website <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
         </p>
       </div>
     </footer>
