@@ -63,13 +63,16 @@ pre {
 }
 
 input:invalid {
-  box-shadow: 0 0 5px 1px red;
+  box-shadow: 0 0 5px 1px crimson;
 }
 
 input:focus:invalid {
   box-shadow: none;
 }
 
+.label-abang {
+  color: crimson !important;
+}
 // first tag
 .layar {
   height: -webkit-fill-available;
