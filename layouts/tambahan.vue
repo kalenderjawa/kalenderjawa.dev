@@ -8,7 +8,7 @@
           <!--
           <nuxt-link class="navbar-item" to="/dokumentasi">Dokumentasi</nuxt-link>
           -->
-          <a class="navbar-item">Github</a>
+          <a class="navbar-item" href="https://github.com/kalenderjawa">Github</a>
         </div>
       </div>
     </nav>
