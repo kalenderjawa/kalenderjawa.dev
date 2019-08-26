@@ -5,7 +5,7 @@
 <h2 id="sejarah">Sejarah</h2>
 <p>Kalender atau Penanggalan Jawa merupakan penanggalan yang dibawa oleh para leluhur Jawa dan kemudian diolah lebih lanjut oleh para Wali. Sebelum masa para Wali, para leluhur Jawa telah memakai penanggalan berdasarkan matahari atau Saka dan juga berdasarkan bulan dan dalam perkembangan selanjutnya para Wali yang berkolaborasi dengan para leluhur bangsa Jawa tersebut menghasilkan Penanggalan Jawa yang baru tetapi berdasarkan pergerakan bulan dan Penanggalan Jawa baru ini sudah umum dipakai sejak Raden Patah menjadi Sultan Demak yang pertama. </p>
 <p>Momen dimana Raden Patah menjadi sultan pertama di Demak ini ditandai dengan <em>Sengkalan</em> atau <em>Candra Sengkala</em>,</p>
-<h3 id="-catur-ilang-sucining-ratu-"><em>Catur Ilang Sucining Ratu</em></h3>
+<h3 id="-catur-ilang-sucining-ratu-" class="label-abang"><em>Catur Ilang Sucining Ratu</em></h3>
 <p>Sengkalan tersebut menandakan tahun 1404 Saka (887 H, 1482 M) atau 4 tahun setelah runtuhnya Majapahit.</p>
 <blockquote>
 <p>Candra Sengkala atau Sengkalan merupakan cara orang Jawa dalam mengingat momen tahun sebagai suatu kalimat. Contoh paling terkenal adalah runtuhnya Majapahit yaitu &quot;Sirna ilang Kertaning Bumi&quot; atau tahun 1400 Jawa dan yang perlu menjadi catatan bahwa Sengkalan sebenarnya adalah kalender lunar yang sudah lama dipakai sebelum masa para wali [<a href="https://www.caknun.com/2019/kalender-jowo-digowo-kalender-arab-digarap-kalender-barat-diruwat">sumber</a>].</p>
@@ -33,7 +33,7 @@
 <hr>
 <h3 id="hari-dinten-dino-">Hari (<em>Dinten</em>/<em>Dino</em>)</h3>
 <p>Sama seperti halnya sistem kalender Masehi, penanggalan Jawa juga memakai sistem pembagian hari menjadi 7.</p>
-<table>
+<table class="table is-bordered is-striped is-hoverable">
 <thead>
 <tr>
 <th style="text-align:left">Urutan</th>
@@ -73,7 +73,7 @@
 </table>
 <h3 id="pasaran">Pasaran</h3>
 <p>Selain sistem pembagian 7 hari seperti halnya pada penanggalan Masehi, masyarakat Jawa juga membagi hari menjadi 5 atau sering disebut dengan <strong>Pasaran</strong>. </p>
-<table>
+<table class="table is-bordered is-striped is-hoverable">
 <thead>
 <tr>
 <th style="text-align:left">Pasaran</th>
@@ -106,7 +106,7 @@
 <p><strong>Neptu</strong> adalah penilaian atau bobot angka dari suatu Pasaran. Asal mula dan bagaimana caranya menetapkan Neptu pada suatu Pasaran sejarahnya masih misteri, hanya saja penggunaanya sudah sangat umum sampai sekarang seperti penetapan acara adat dll. </p>
 <h3 id="bulan-sasi-">Bulan (<em>Sasi</em>)</h3>
 <p>Bulan atau <em>sasi</em> dalam Bahasa Jawa mempunyai jumlah sebanyak 12 bulan dengan nama-nama sebagai berikut: </p>
-<table>
+<table class="table is-bordered is-striped is-hoverable">
 <thead>
 <tr>
 <th style="text-align:center">Urutan</th>
@@ -194,7 +194,7 @@
 <h3 id="tahun-jawa">Tahun Jawa</h3>
 <p>Di dalam Penanggalan Jawa, Tahun bukanlah satuan kalender yang terbesar tetapi dikenal yang namanya <strong>Windu</strong> yaitu 8 Tahun. Satuan windu ini dinamakan Tahun Jawa yang konsepnya tentu saja sangat berbeda dengan Tahun Masehi.</p>
 <p>Nama nama dan lama hari dari Tahun Jawa berada di <strong>Tabel Tahun Jawa</strong> berikut</p>
-<table>
+<table class="table is-bordered is-striped is-hoverable">
 <thead>
 <tr>
 <th style="text-align:center">Urutan</th>
