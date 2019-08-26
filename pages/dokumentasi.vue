@@ -31,7 +31,7 @@
 <li>Sistem <em>lambang</em> dengan siklus 2 windu.</li>
 </ul>
 <hr>
-<h3 id="hari-dinten-dino-">Hari (<em>Dinten</em>/<em>Dino</em>)</h3>
+<h3 id="hari-dinten-dino-" class="label-abang">Hari (<em>Dinten</em>/<em>Dino</em>)</h3>
 <p>Sama seperti halnya sistem kalender Masehi, penanggalan Jawa juga memakai sistem pembagian hari menjadi 7.</p>
 <table class="table is-bordered is-striped is-hoverable">
 <thead>
@@ -71,7 +71,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="pasaran">Pasaran</h3>
+<h3 id="pasaran" class="label-abang">Pasaran</h3>
 <p>Selain sistem pembagian 7 hari seperti halnya pada penanggalan Masehi, masyarakat Jawa juga membagi hari menjadi 5 atau sering disebut dengan <strong>Pasaran</strong>. </p>
 <table class="table is-bordered is-striped is-hoverable">
 <thead>
@@ -103,8 +103,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Neptu</strong> adalah penilaian atau bobot angka dari suatu Pasaran. Asal mula dan bagaimana caranya menetapkan Neptu pada suatu Pasaran sejarahnya masih misteri, hanya saja penggunaanya sudah sangat umum sampai sekarang seperti penetapan acara adat dll. </p>
-<h3 id="bulan-sasi-">Bulan (<em>Sasi</em>)</h3>
+<p><strong class="label-abang">Neptu</strong> adalah penilaian atau bobot angka dari suatu Pasaran. Asal mula dan bagaimana caranya menetapkan Neptu pada suatu Pasaran sejarahnya masih misteri, hanya saja penggunaanya sudah sangat umum sampai sekarang seperti penetapan acara adat dll. </p>
+<h3 id="bulan-sasi-" class="label-abang">Bulan (<em>Sasi</em>)</h3>
 <p>Bulan atau <em>sasi</em> dalam Bahasa Jawa mempunyai jumlah sebanyak 12 bulan dengan nama-nama sebagai berikut: </p>
 <table class="table is-bordered is-striped is-hoverable">
 <thead>
@@ -191,7 +191,7 @@
 </tbody>
 </table>
 <p><strong>*) lihat Tabel Tahun Jawa</strong></p>
-<h3 id="tahun-jawa">Tahun Jawa</h3>
+<h3 id="tahun-jawa" class="label-abang">Tahun Jawa</h3>
 <p>Di dalam Penanggalan Jawa, Tahun bukanlah satuan kalender yang terbesar tetapi dikenal yang namanya <strong>Windu</strong> yaitu 8 Tahun. Satuan windu ini dinamakan Tahun Jawa yang konsepnya tentu saja sangat berbeda dengan Tahun Masehi.</p>
 <p>Nama nama dan lama hari dari Tahun Jawa berada di <strong>Tabel Tahun Jawa</strong> berikut</p>
 <table class="table is-bordered is-striped is-hoverable">
