@@ -7,13 +7,13 @@
 <p>Momen dimana Raden Patah menjadi sultan pertama di Demak ini ditandai dengan <em>Sengkalan</em> atau <em>Candra Sengkala</em>,</p>
 <h3 id="-catur-ilang-sucining-ratu-" class="label-abang"><em>Catur Ilang Sucining Ratu</em></h3>
 <p>Sengkalan tersebut menandakan tahun 1404 Saka (887 H, 1482 M) atau 4 tahun setelah runtuhnya Majapahit.</p>
-<blockquote>
+<div class="notification">
 <p>Candra Sengkala atau Sengkalan merupakan cara orang Jawa dalam mengingat momen tahun sebagai suatu kalimat. Contoh paling terkenal adalah runtuhnya Majapahit yaitu &quot;Sirna ilang Kertaning Bumi&quot; atau tahun 1400 Jawa dan yang perlu menjadi catatan bahwa Sengkalan sebenarnya adalah kalender lunar yang sudah lama dipakai sebelum masa para wali [<a href="https://www.caknun.com/2019/kalender-jowo-digowo-kalender-arab-digarap-kalender-barat-diruwat">sumber</a>].</p>
-</blockquote>
+</div>
 <p>Pada masa Sultan Agung terjadi peresmian Kalender Jawa sebagai kalender kerajaan yaitu Jumat Legi, 1 Sura 1555 (1 Muharram 1043 H, 8 Juli 1633 M, atau 51 tahun setelah kalender Gregorian diresmikan) yang berlaku untuk seluruh Pulau Jawa kecuali Banten, Blambangan dan Madura.</p>
-<blockquote>
+<div class="notification">
 <p>Kalau dihitung-hitung dan dinalar sebenarnya para leluhur bangsa Indonesia jauh lebih cepat dalam perumusan dan pemakaian sistem kalender yaitu 100 tahun lebih awal dibandingkan Kalender Gregorian atau Masehi (peresmian Kalender Masehi adalah tahun 1582 M).</p>
-</blockquote>
+</div>
 <h2 id="sistematis">Sistematis</h2>
 <p>Berikut aturan atau sistematis dari Kalender Jawa yang perlu menjadi acuan:</p>
 <ul>
@@ -247,9 +247,9 @@
 </table>
 <p>dan dibawah ini adalah <strong>Tabel Hari Awal Tahun Kalender Jawa 1867‒2106 (1355‒1594 H, 1936‒2169 M)</strong></p>
 <p><img src="https://cdn.caknun.com/media/2019/01/20190102-menek-kalender-3.jpg" alt="Hari Awal Tahun Kalender Jawa 1867‒2106 (1355‒1594 H, 1936‒2169 M)"></p>
-<blockquote>
+<div class="notification is-warning">
 <p>Tahun Jawa merupakan pembagian 8 dari siklus 120 tahun atau 8 x 15.  </p>
-</blockquote>
+</div>
 <p>Seperti pada penjelasan sebelumnya tahun-tahun yang masuk di Tahun Jawa yang sama, misalnya tahun-tahun pada Tahun Be, maka semua tahun yang termasuk di Tahun Be tersebut akan mempunyai hari awal tahun yang sama yaitu <strong>Rebo Kliwon</strong> dan jumlah hari dalam tiap tahun juga sama yaitu sebanyak 354 hari.</p>
 <h2 id="rumus-matematis">Rumus Matematis</h2>
 <p>Kalender Jawa ini mempunyai keteraturan yang sangat luar biasa sehingga ditemukan pola-pola yang kemudian dirumuskan dan rumusan itu dengan mudah di buat menjadi suatu hafalan. Berdasarkan rumusan hari awal tahun kemudian didapatkan juga rumusan untuk hari-hari awal bulan pada masing-masing tahun dalam siklus windu.</p>
