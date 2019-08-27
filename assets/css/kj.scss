@@ -110,6 +110,10 @@ input:focus:invalid {
   //background-image: linear-gradient(135deg, #20c8cc 0%, #ac17cd 80%);
 }
 
+.navbar-item {
+  display: flex !important;
+}
+
 .box {
   box-shadow: none !important;
 }
