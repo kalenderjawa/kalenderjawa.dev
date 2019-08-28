@@ -47,10 +47,10 @@ KalenderJawa.sasi('mukarom', 1953).then({ k, s } => {
         </div>
       </div>
     </div>
-    <div class="column demo-result" v-if="ok">
+    <div class="column demo-result-list" v-if="ok">
       <ul id="sasi_v">
-        <li v-for="item in hasil">
-          {{ item }}
+        <li v-for="(item, index) in hasil">
+          Tanggal {{ index + 1 }} Hari {{ item[index + 1].dinten }} Pasara {{ item[index + 1].pasaran }} 
         </li>
       </ul>
     </div>
