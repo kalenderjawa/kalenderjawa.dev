@@ -52,6 +52,7 @@ KalenderJawa.sasi('mukarom', 1953).then({ k, s } => {
     
     <div class="columns">
       <div class="column demo-result-list" v-if="ok">
+      <h3 class="title">{{konversi}}</h3>
       <ul id="sasi_v">
         <li v-for="(item, index) in hasil">
           Tanggal <strong>{{ index + 1 }}</strong> Hari <strong>{{ capitalizeFirstLetter(item[index + 1].dinten) }}</strong> Pasaran <strong>{{ capitalizeFirstLetter(item[index + 1].pasaran) }}</strong> 
@@ -90,6 +91,7 @@ export default {
 
         const { k, s } = await KalenderJawa.sasi(this.selected, this.taunjawa)
         this.hasil = s.get(k)
+        this.konversi = `${this.capitalizeFirstLetter(KalenderJawa.araningSasi[this.selected-1].wulan)} ${this.taunjawa} J`
         this.ok = true
       }
     },
