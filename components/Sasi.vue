@@ -50,7 +50,7 @@ KalenderJawa.sasi('mukarom', 1953).then({ k, s } => {
     <div class="column demo-result-list" v-if="ok">
       <ul id="sasi_v">
         <li v-for="(item, index) in hasil">
-          Tanggal {{ index + 1 }} Hari {{ item[index + 1].dinten }} Pasara {{ item[index + 1].pasaran }} 
+          Tanggal <strong>{{ index + 1 }}</strong> Hari <strong>{{ capitalizeFirstLetter(item[index + 1].dinten) }}</strong> Pasaran <strong>{{ capitalizeFirstLetter(item[index + 1].pasaran) }}</strong> 
         </li>
       </ul>
     </div>
