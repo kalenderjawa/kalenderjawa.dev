@@ -14,8 +14,8 @@ KalenderJawa.sasi('mukarom', 1953).then({ k, s } => {
   console.log(s.get(k))
 })
       </code>
-     </pre>
-     <div class="columns code-demo-form">
+    </pre>
+    <div class="columns code-demo-form">
     <div class="column">
       <div class="field">
         <div class="field">
@@ -47,16 +47,19 @@ KalenderJawa.sasi('mukarom', 1953).then({ k, s } => {
         </div>
       </div>
     </div>
-    <div class="column demo-result-list" v-if="ok">
+    <div class="column"></div>
+    </div>
+    
+    <div class="columns">
+      <div class="column demo-result-list" v-if="ok">
       <ul id="sasi_v">
         <li v-for="(item, index) in hasil">
           Tanggal <strong>{{ index + 1 }}</strong> Hari <strong>{{ capitalizeFirstLetter(item[index + 1].dinten) }}</strong> Pasaran <strong>{{ capitalizeFirstLetter(item[index + 1].pasaran) }}</strong> 
         </li>
       </ul>
     </div>
-  </div>
-  </div>
-  
+    </div>
+  </div> 
 </template>
 
 <script>
@@ -84,9 +87,11 @@ export default {
       if( parseInt(this.taunjawa) > 2106 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
         alert('Masukkan angka antara 1867 - 2106!')
       } else {
-        const { k, s } = await KalenderJawa.sasi(this.selected, this.taunjawa)
-        this.hasil = s.get(k)
-        this.ok = true
+        KalenderJawa.sasi(this.selected, parseInt(this.taunjawa)).then(function({k, s}) {
+          console.log(s.get(k))
+        }).catch(error => {
+          console.log(error)
+        })
       }
     },
     capitalizeFirstLetter (string) {
