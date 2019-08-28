@@ -41,15 +41,18 @@ KalenderJawa.sasi('mukarom', 1953).then({ k, s } => {
         <div class="field">
           <div class="control">
             <button class="button is-dark" v-on:click="cariSasiPenuh()">
-              Cari Hari & Pasaran
+              Daftar Hari & Pasaran
             </button>
           </div>
         </div>
       </div>
     </div>
     <div class="column demo-result" v-if="ok">
-      <p class="code-demo-result-title">{{konversi}}</p>
-      <p class="code-demo-result">{{hasil}}</p>
+      <ul id="sasi_v">
+        <li v-for="item in hasil">
+          {{ item }}
+        </li>
+      </ul>
     </div>
   </div>
   </div>
@@ -57,6 +60,8 @@ KalenderJawa.sasi('mukarom', 1953).then({ k, s } => {
 </template>
 
 <script>
+import * as KalenderJawa from '@junwatu/kalender-jawa'
+
 export default {
   name: 'Sasi',
   data () {
@@ -64,7 +69,7 @@ export default {
       props: KalenderJawa.araningSasi,
       selected: 1,
       taunjawa: 1953,
-      hasil: '',
+      hasil: [],
       konversi: '',
       ok: false
     }
@@ -79,7 +84,9 @@ export default {
       if( parseInt(this.taunjawa) > 2106 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
         alert('Masukkan angka antara 1867 - 2106!')
       } else {
-        
+        const { k, s } = await KalenderJawa.sasi(this.selected, this.taunjawa)
+        this.hasil = s.get(k)
+        this.ok = true
       }
     },
     capitalizeFirstLetter (string) {
