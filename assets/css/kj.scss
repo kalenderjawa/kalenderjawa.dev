@@ -324,5 +324,20 @@ input:focus:invalid {
   margin-left: 0em !important;
 }
 
+table.sasi-table td {
+  text-align: center !important;
+}
+
+table.sasi-table tbody {
+  display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+  .table-container {
+    max-width: 40% !important;
+  }
+}
+
+
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
