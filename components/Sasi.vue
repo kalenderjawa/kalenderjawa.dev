@@ -87,11 +87,10 @@ export default {
       if( parseInt(this.taunjawa) > 2106 || parseInt(this.taunjawa) < 1867 || this.taunjawa.length == 0) {
         alert('Masukkan angka antara 1867 - 2106!')
       } else {
-        KalenderJawa.sasi(this.selected, parseInt(this.taunjawa)).then(function({k, s}) {
-          console.log(s.get(k))
-        }).catch(error => {
-          console.log(error)
-        })
+
+        const { k, s } = await KalenderJawa.sasi(this.selected, this.taunjawa)
+        this.hasil = s.get(k)
+        this.ok = true
       }
     },
     capitalizeFirstLetter (string) {
