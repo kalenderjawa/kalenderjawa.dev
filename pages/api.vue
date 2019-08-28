@@ -4,6 +4,7 @@
         <HPAwalBulan/>
         <CKTJawa/>
         <CRumusAbadi/>
+        <Sasi/>
       </div>
   </div>
 </template>
@@ -14,6 +15,7 @@ import VueHighlightJS from 'vue-highlightjs'
 import HPAwalBulan from '~/components/HPAwalBulan.vue'
 import CKTJawa from '~/components/CKTJawa.vue'
 import CRumusAbadi from '~/components/CRumusAbadi.vue'
+import Sasi from '~/components/Sasi.vue'
 
 Vue.use(VueHighlightJS)
 
@@ -30,7 +32,8 @@ export default {
   components: {
     HPAwalBulan,
     CKTJawa,
-    CRumusAbadi
+    CRumusAbadi,
+    Sasi
   }
 }
 </script>
