@@ -285,6 +285,14 @@ input:focus:invalid {
   margin-left: -0.05em
 }
 
+.demo-result-list {
+  text-align: left;
+}
+
+.demo-result-list ul li {
+  list-style-type: none;
+}
+
 .install {
   text-align: center;display: inline-block;
   padding-right: 10em;
