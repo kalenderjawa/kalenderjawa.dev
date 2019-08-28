@@ -320,5 +320,9 @@ input:focus:invalid {
   max-width: 23em;
 }
 
+.content ul { 
+  margin-left: 0em !important;
+}
+
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
