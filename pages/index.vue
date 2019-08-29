@@ -65,7 +65,7 @@
         <div class="tile is-6 is-parent middle-right-section">
           <div class="tile is-child box">
             <div class="title-fitur-align">
-            <span class="icon is-large"><i class="fab fa-slack fa-3x"></i></span>
+            <span class="icon is-large"><i class="fas fa-user-astronaut fa-3x"></i></span>
             <p class="title title-fitur">
               RAMAH PENGEMBANG
             </p>
