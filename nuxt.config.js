@@ -24,7 +24,7 @@ export default {
   */
   css: [
     '@/assets/css/kj.scss',
-    '@/node_modules/highlight.js/scss/github.scss'
+    '@/node_modules/highlight.js/scss/solarized-dark.scss'
   ],
   /*
   ** Plugins to load before mounting the App
