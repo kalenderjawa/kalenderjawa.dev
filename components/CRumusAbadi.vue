@@ -82,7 +82,7 @@ export default {
       } else {
         const data = await KalenderJawa.cariRumusAbadiAwalBulanTahunJawa(this.selected, this.taunjawa)
         this.ok = true
-        this.hasil = `${data.rumus.wulan.wulan}_${data.rumus.dino}_${data.rumus.pasaran}`
+        this.hasil = `${data.rumus.wulan.wulan} ${data.rumus.dino} ${data.rumus.pasaran}`
         this.konversi = `1 ${this.capitalizeFirstLetter(KalenderJawa.araningSasi[this.selected-1].wulan)} ${this.taunjawa} J`
       }
     },
