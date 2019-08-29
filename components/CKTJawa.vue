@@ -1,6 +1,16 @@
 <template>
   <div class="api-container-detail">
     <span class="api">cariKurupTahunJawa(t)</span>
+    <div class="content">
+      <p><strong>Argumen</strong>:</p>
+<ul>
+<li>Tahun <code>t</code> bertipe <code>number</code> (integer)</li>
+</ul>
+<p><strong>Return</strong>:</p>
+<ul>
+<li><code>Promise</code></li>
+</ul>
+    </div>
     <div class="code-deskripsi">
       <p>Fungsi ini akan mencari pada tahun apa dalam se-windu dan berada pada kurup apa suatu taun. Misalnya anda ingin mencari nama taun jawa dan kurup dari tahun 1994 maka tahun tersebut berada pada tahun Jimakir dan kurup Alip Senen Pahing atau Anenhing.</p>
       <p>Misalnya:</p>
