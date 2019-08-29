@@ -30,8 +30,8 @@ $navbar-breakpoint: 0;
 
 html { 
   font-family:  $family-sans-serif;
-  background-color: transparent !important;
-  //background-color: $color_dark !important;
+  // background-color: transparent !important;
+  background-color: $color_lighter !important;
 }
 
 @supports (font-variation-settings: normal) {
@@ -43,6 +43,7 @@ html {
 // custom
 body {
   font-family: $family-sans-serif;
+  //color: $color_dark !important;
 }
 
 footer {
@@ -69,6 +70,15 @@ input:invalid {
 input:focus:invalid {
   box-shadow: none;
 }
+
+table.sasi-table td {
+  text-align: center !important;
+}
+
+table.sasi-table tbody {
+  display: flex;
+}
+
 
 .label-abang {
   color: crimson !important;
@@ -116,6 +126,7 @@ input:focus:invalid {
 
 .box {
   box-shadow: none !important;
+  background-color: $color_lighter !important;
 }
 
 .section {
@@ -241,6 +252,10 @@ input:focus:invalid {
   margin: 3rem 0;
 }
 
+.api-container-detail  .content {
+  margin: 1em 1em;
+}
+
 .api {
   font-size: 1.2rem;
   font-family: 'IBM Plex Mono';
@@ -248,8 +263,8 @@ input:focus:invalid {
   font-weight: 600;
 }
 .hljs {
-  background: none !important;
-  padding: 0px !important;
+  //background: none !important;
+  padding: 10px 20px !important;
 }
 
 .code-deskripsi {
@@ -322,14 +337,6 @@ input:focus:invalid {
 
 .content ul { 
   margin-left: 0em !important;
-}
-
-table.sasi-table td {
-  text-align: center !important;
-}
-
-table.sasi-table tbody {
-  display: flex;
 }
 
 @media screen and (min-width: 1024px) {
