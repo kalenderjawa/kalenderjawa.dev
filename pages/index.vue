@@ -70,7 +70,7 @@
               RAMAH PENGEMBANG
             </p>
             </div>
-            <p class="fitur-deskripsi">Pustaka ini dibuat dan didukung oleh komunitas. Jika ada kesulitan, saran ataupun kritik silahkan issue ke Github atau ke komunitas <a href="https://join.slack.com/t/kalender-jawa/shared_invite/enQtNzM3MjA1OTM3OTg5LWExZTEyYTZhYWQ5NGRkOWU0NGZiZjk1Y2ZhY2M5N2E3NWUyYjI0Y2YwNDEyOTFiZTMwYTgxZjEyNzE1YjZiMzk">Slack</a> kami.</p>
+            <p class="fitur-deskripsi">Pustaka ini dibuat dan didukung oleh komunitas sehingga jika ada kesulitan, saran ataupun kritik silahkan menggisi <i>issue</i> ke Github kami.</p>
           </div>
         </div>
       </div>
