@@ -1,6 +1,17 @@
  <template>
   <div class="api-container-detail">
         <span class="api">cariRumusAbadiAwalBulanTahunJawa(w, t)</span>
+        <div class="content">
+          <p><strong>Argumen</strong>:</p>
+<ul>
+<li>Sasi atau Bulan <code>w</code> bertipe <code>string</code>. Contoh: <code>sapar</code></li>
+<li>Tahun <code>t</code> bertipe integer. Contoh : <code>1881</code> </li>
+</ul>
+<p><strong>Return</strong>:</p>
+<ul>
+<li><code>Promise</code></li>
+</ul>
+        </div>
         <div class="code-deskripsi">
           <p>Rumus perhitungan abadi untuk hari awal bulan pada masing-masing tahun dalam siklus windu.</p>
           <p>Misalnya:</p>
