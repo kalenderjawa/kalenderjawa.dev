@@ -1,6 +1,6 @@
 <template>
   <div  class="layar">
-    <nav class="navbar">
+    <nav class="navbar is-spaced">
       <div class="navbar-menu is-active">
         <div class="navbar-end">
           <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
