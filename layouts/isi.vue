@@ -12,7 +12,9 @@
         </div>
       </div>
     </nav>
+    <!--
     <section class="section top-grad"><div></div></section>
+    -->
     <nuxt />
     <footer class="footer">
       <div class="content has-text-centered">

@@ -12,7 +12,9 @@
         </div>
       </div>
     </nav>
+    <!--
     <section class="section top-grad"><div></div></section>
+    -->
     <div class="container first-container">
       <div class="section">
         <h1 class="text-logo">
@@ -38,8 +40,10 @@
         </p>
       </div>
     </footer>
+    <!--
     <section class="section bottom-section thin-line">
       <div></div>
     </section>
+    -->
   </div>
 </template>
