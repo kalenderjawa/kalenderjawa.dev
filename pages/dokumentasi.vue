@@ -16,20 +16,24 @@
 </div>
 <h2 id="sistematis">Sistematis</h2>
 <p>Berikut aturan atau sistematis dari Kalender Jawa yang perlu menjadi acuan:</p>
+<div class="content kjs">
 <ul>
 <li>Kalender Jawa Memakai sistem hari 7 <em>(saptawara)</em> yang sesuai dengan sistem hari pada kalender Masehi.</li>
 <li>Kalender Jawa mamakai sistem 5 <em>(pancawara)</em> atau sering dikenal dengan Pasaran.</li>
 <li>Kalender Jawa mempunyai siklus 8 tahunan (satu windu).</li>
 <li>Koreksi keberulangan terjadi setiap 120 tahun sekali (15 windu) atau istilahnya yaitu <strong>Salin Kurup</strong> atau <strong>Ganti Kurup</strong> (pengkoreksian yaitu dengan menambah 1 hari tiap 120 tahun).</li>
 </ul>
+</div>
 <hr>
 <p>Beberapa sistematis berikut juga termasuk dalam Kalender Jawa hanya saja tidak (belum ada rencana) di implementasikan dalam <strong>Pustaka Kalender Jawa</strong> karena sifatnya yang pilihan:</p>
+<div class="content kjs">
 <ul>
 <li>Sistem pembagian hari menjadi 6, <em>sadwara</em> atau <em>paringkelan</em>.</li>
 <li>Sistem siklus 210 hari atau 30 Wuku dimana tiap Wuku mempunyai siklus 7 hari. Sistem ini dikenal dengan nama Pawukon.</li>
 <li>Sistem <em>tumbuk</em> dimana setiap 4 windu sekali terjadi keberulangan nama hari, tanggal, pasaran dan bulan.</li>
 <li>Sistem <em>lambang</em> dengan siklus 2 windu.</li>
 </ul>
+</div>
 <hr>
 <h3 id="hari-dinten-dino-" class="label-abang">Hari (<em>Dinten</em>/<em>Dino</em>)</h3>
 <p>Sama seperti halnya sistem kalender Masehi, penanggalan Jawa juga memakai sistem pembagian hari menjadi 7.</p>
@@ -247,7 +251,7 @@
 </table>
 <p>dan dibawah ini adalah <strong>Tabel Hari Awal Tahun Kalender Jawa 1867‒2106 (1355‒1594 H, 1936‒2169 M)</strong></p>
 <p><img src="https://cdn.caknun.com/media/2019/01/20190102-menek-kalender-3.jpg" alt="Hari Awal Tahun Kalender Jawa 1867‒2106 (1355‒1594 H, 1936‒2169 M)"></p>
-<div class="notification is-warning">
+<div class="notification">
 <p>Tahun Jawa merupakan pembagian 8 dari siklus 120 tahun atau 8 x 15.  </p>
 </div>
 <p>Seperti pada penjelasan sebelumnya tahun-tahun yang masuk di Tahun Jawa yang sama, misalnya tahun-tahun pada Tahun Be, maka semua tahun yang termasuk di Tahun Be tersebut akan mempunyai hari awal tahun yang sama yaitu <strong>Rebo Kliwon</strong> dan jumlah hari dalam tiap tahun juga sama yaitu sebanyak 354 hari.</p>
