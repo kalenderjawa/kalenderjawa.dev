@@ -1,6 +1,17 @@
 <template>
   <div class="api-container-detail">
     <span class="api">sasi(w, t)</span>
+    <div class="content">
+      <p><strong>Argumen</strong></p>
+<ul>
+<li><code>w</code> sasi dalam <code>string</code>. Misal : <code>sapar</code></li>
+<li><code>t</code> tahun dalam <code>number</code>. Misal: <code>2077</code></li>
+</ul>
+<p><strong>Return</strong></p>
+<ul>
+<li><code>Promise</code> dengan data <code>then</code> yaitu <code>{ k, s }</code> dimana <code>k</code> adalah <code>key</code> dan <code>s</code> adalah Map.</li>
+</ul>
+    </div>
     <div class="code-deskripsi">
       <p>Mencari hari dan pasaran selama satu bulan penuh pada tahun Jawa tertentu.</p>
       <p>Misalnya:</p>
