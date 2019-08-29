@@ -338,6 +338,12 @@ table.sasi-table tbody {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
+
 
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
