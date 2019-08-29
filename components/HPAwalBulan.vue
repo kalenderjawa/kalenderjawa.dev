@@ -2,6 +2,13 @@
   <div class="api-container-detail">
     <h1 class="title is-medium">API Pustaka Kalender Jawa</h1>
         <span class="api">cariHariPasaranAwalBulanTahunJawa(w,t)</span>
+        <div class="content">
+          <p><strong>Argumen</strong>:</p>
+        <ul>
+          <li>Bulan <code>w</code> bertipe <code>string</code> atau <code>number</code></li>
+          <li>Tahun <code>t</code> bertipe <code>number</code></li>
+        </ul>
+        </div>
         <div class="code-deskripsi">
           <p>Metode ini digunakan untuk mencari hari dan pasaran untuk awal bulan pada tahun jawa tertentu.</p>
           <p>Misalnya:</p>
