@@ -17,7 +17,7 @@
           <div class="columns">
             <div class="column"></div>
             <div class="column is-three-quarters install">
-              <p>$ npm install --save @kalenderjawa/inti</p>
+              <p>$ npm install --save @kalenderjawa/pustaka</p>
             </div>
             <div class="column"></div>
           </div>
@@ -59,7 +59,7 @@
               JAVASCRIPT
             </p>
             </div>
-            <p class="fitur-deskripsi">Pustaka ini tersedia melalui browser maupun npm sehingga anda bisa memakainya dalam membangun berbagai project web, desktop maupun aplikasi mobile.</p>
+            <p class="fitur-deskripsi">Pustaka ini tersedia melalui browser & npm sehingga anda bisa memakainya dalam membangun project web, desktop maupun aplikasi mobile.</p>
           </div>
         </div>
         <div class="tile is-6 is-parent middle-right-section">
@@ -70,7 +70,7 @@
               RAMAH PENGEMBANG
             </p>
             </div>
-            <p class="fitur-deskripsi">Pustaka ini dibuat dan didukung oleh komunitas sehingga jika ada kesulitan, saran ataupun kritik silahkan menggisi <i>issue</i> ke Github kami.</p>
+            <p class="fitur-deskripsi">Pustaka ini dibuat, diperuntukkan dan didukung oleh komunitas sehingga jika ada kesulitan, saran ataupun kritik silahkan menggisi <i>issue</i> ke Github kami.</p>
           </div>
         </div>
       </div>
