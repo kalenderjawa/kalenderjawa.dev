@@ -73,7 +73,7 @@ h3 code {
 }
 
 input:invalid {
-  box-shadow: 0 0 5px 1px crimson;
+  box-shadow: 0 0 5px 1px $color_red_dark;
 }
 
 input:focus:invalid {
@@ -90,7 +90,7 @@ table.sasi-table tbody {
 
 
 .label-abang {
-  color: crimson !important;
+  color: $color_red_light !important;
 }
 // first tag
 .layar {
@@ -116,7 +116,7 @@ table.sasi-table tbody {
 
 .navbar-end a {
   // color: white;
-  color: #131313;
+  color: $color_dark;
   font-weight: 300;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -143,13 +143,13 @@ table.sasi-table tbody {
 }
 
 .footer {
-  color: #a7a7a7;
+  color: $color_dark;
   padding: 3rem 1.5rem 3rem !important;
 }
 
 .footer span {
   font-weight: 500px;
-  color: #4a4a4a;
+  color: $color_light;
 }
 
 .has-navbar-fixed-top {
@@ -173,7 +173,7 @@ table.sasi-table tbody {
 }
 
 .text-quote-contrib {
-  color: dimgray;
+  color: $color_dark;
 }
 
 .text-deskripsi {
@@ -181,7 +181,7 @@ table.sasi-table tbody {
   font-size: 1.2rem;
 
   padding: 15px 5.5rem;
-  color: #a7a7a7;
+  color: $color_light;
 }
 
 .title-fitur-align {
@@ -196,14 +196,14 @@ table.sasi-table tbody {
   letter-spacing: -0.05em;
   font-weight: 300 !important;
   font-size: 20px !important;
-  color: #24292E !important;
+  color: $color_dark !important;
   margin-bottom: 15px !important;
   letter-spacing: 0.05em;
   //margin-left: -10px !important;
 }
 
 .fitur-deskripsi {
-  color: #586069;
+  color: $color_dark;
   text-align: center;
 }
 
@@ -275,7 +275,7 @@ table.sasi-table tbody {
 .api {
   font-size: 1.2rem;
   font-family: 'IBM Plex Mono';
-  color: crimson;
+  color: $color_red_dark;
   font-weight: 600;
 }
 .hljs {
@@ -292,7 +292,7 @@ table.sasi-table tbody {
 }
 
 .demo-result {
-  background-color: rgba(245, 245, 245, 0.2);
+  background-color: $color_light;
   padding: 3rem 1.5rem !important;
   text-align: center;
   margin: .7em;
@@ -301,17 +301,14 @@ table.sasi-table tbody {
 .code-demo-result-title {
   font-size: 1.5rem;
   font-weight: 500;
-  color: black;
+  color: $color_dark;
   margin-bottom: 0px !important;
 }
 .code-demo-result {
   font-size: 2.5em;
-  /* font-style: italic; */
   text-transform: uppercase;
-  font-family: "Source Code Pro";
-  color: #dc143c;
-  /* padding: 1.5em; */
-  // text-align: left;
+  font-family: "IBM Plex Mono";
+  color: $color_red_light;
   line-height: 1;
   margin-left: -0.05em
 }
