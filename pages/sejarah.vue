@@ -274,7 +274,7 @@
 
 <script>
 export default {
-  layout: 'isi'
+  layout: 'dok'
 }
 </script>
 
