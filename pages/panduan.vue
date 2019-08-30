@@ -16,9 +16,9 @@ export default {
   },
   head () {
     return {
-    title: 'Panduan - Pustaka Kalender Jawa',
+    title: 'Panduan Node & NPM - Pustaka Kalender Jawa',
     meta: [
-      { hid: 'description', name: 'description', content: 'Instalasi Pustaka Kalender Jawa' }
+      { hid: 'description', name: 'description', content: 'Instalasi Pustaka Kalender Jawa Bisa Melalui NPM maupun Browser.' }
     ]
     }
   }

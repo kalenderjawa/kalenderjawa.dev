@@ -277,7 +277,7 @@ export default {
   layout: 'dok',
   head () {
     return {
-    title: 'Sejarah Kalender Jawa',
+    title: 'Sejarah Kalender Jawa dan Para Wali',
     meta: [
       { hid: 'description', name: 'description', content: 'Konsep Kurup, Pasaran, Dinten, Sasi, Siklus Windu dari Kalender Jawa' }
     ]
