@@ -15,6 +15,7 @@
 <p>Kalau dihitung-hitung dan dinalar sebenarnya para leluhur bangsa Indonesia jauh lebih cepat dalam perumusan dan pemakaian sistem kalender yaitu 100 tahun lebih awal dibandingkan Kalender Gregorian atau Masehi (peresmian Kalender Masehi adalah tahun 1582 M).</p>
 </div>
 <h2 id="sistematis">Sistematis</h2>
+<p>Pada perkembangannya Kalender Jawa sebenarnya sangatlah kompleks hanya saja dalam Pustaka Kalender Jawa ini hanya diimplementasikan konsep-konsep dasar dari Kalender Jawa.</p>
 <p>Berikut aturan atau sistematis dari Kalender Jawa yang perlu menjadi acuan:</p>
 <div class="content kjs">
 <ul>
