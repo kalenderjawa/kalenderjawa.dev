@@ -59,6 +59,11 @@ pre code {
   font-size: 1.2em !important;
 }
 
+h3 code {
+  padding: 0.25em 0.5em 0.25em 0em !important;
+  background-color: transparent !important;
+}
+
 ::selection {
   background: gold !important;
 }
@@ -258,6 +263,9 @@ table.sasi-table tbody {
 
 .api-container-detail  .content {
   margin: 1em 1em;
+}
+.api-container-detail p {
+  margin-top: 1em;
 }
 
 .params {
