@@ -64,9 +64,9 @@ export default {
   layout: 'isi',
   head () {
     return {
-    title: 'API - Pustaka Kalender Jawa',
+    title: 'API & Demo - Pustaka Kalender Jawa',
     meta: [
-      { hid: 'description', name: 'description', content: 'Dokumentasi API Pustaka Kalender Jawa' }
+      { hid: 'description', name: 'description', content: 'Dokumentasi dan Demo API Pustaka Kalender Jawa' }
     ]
     }
   }, 
