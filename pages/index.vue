@@ -12,16 +12,21 @@
         </div>
       </div>
     </section>
-    <section class="hero is-medium">
+  
+    <section class="hero">
+        
         <div class="hero-body">
           <div class="columns">
             <div class="column"></div>
+            <!--
             <div class="column is-three-quarters install">
               <p>$ npm install --save @kalenderjawa/pustaka</p>
             </div>
+            -->
             <div class="column"></div>
           </div>
         </div>
+        
     </section>
     <section class="section middle-section">
       <div class="tile is-ancestor middle-left-section">
