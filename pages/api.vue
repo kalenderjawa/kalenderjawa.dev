@@ -5,8 +5,8 @@
         <CKTJawa/>
         <CRumusAbadi/>
         <Sasi/>
-        <div>
-          <h2 id="properti">Properti</h2>
+      <div>
+      <h2 id="properti">Properti</h2>
 <h3 id="-araningpasaran-"><code>araningPasaran</code></h3>
 <p>Nama atau <em>araning</em> dari Pasaran</p>
 <div class="content params">
