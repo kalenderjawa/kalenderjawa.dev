@@ -274,7 +274,15 @@
 
 <script>
 export default {
-  layout: 'dok'
+  layout: 'dok',
+  head () {
+    return {
+    title: 'Sejarah Kalender Jawa',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Konsep Kurup, Pasaran, Dinten, Sasi, Siklus Windu dari Kalender Jawa' }
+    ]
+    }
+  },
 }
 </script>
 
