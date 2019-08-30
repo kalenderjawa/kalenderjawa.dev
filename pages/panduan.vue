@@ -13,6 +13,14 @@ export default {
   layout: 'dok',
   components: {
     Wates
+  },
+  head () {
+    return {
+    title: 'Panduan - Pustaka Kalender Jawa',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Instalasi Pustaka Kalender Jawa' }
+    ]
+    }
   }
 }
 </script>
