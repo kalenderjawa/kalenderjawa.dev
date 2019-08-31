@@ -109,8 +109,10 @@
 </tbody>
 </table>
 <p><strong class="label-abang">Neptu</strong> adalah penilaian atau bobot angka dari suatu Pasaran. Asal mula dan bagaimana caranya menetapkan Neptu pada suatu Pasaran sejarahnya masih misteri, hanya saja penggunaanya sudah sangat umum sampai sekarang seperti penetapan acara adat dll. </p>
+
 <h3 id="bulan-sasi-" class="label-abang">Bulan (<em>Sasi</em>)</h3>
 <p>Bulan atau <em>sasi</em> dalam Bahasa Jawa mempunyai jumlah sebanyak 12 bulan dengan nama-nama sebagai berikut: </p>
+<div class="table-container">
 <table class="table is-bordered is-striped is-hoverable">
 <thead>
 <tr>
@@ -195,6 +197,7 @@
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>*) lihat Tabel Tahun Jawa</strong></p>
 <h3 id="tahun-jawa" class="label-abang">Tahun Jawa</h3>
 <p>Di dalam Penanggalan Jawa, Tahun bukanlah satuan kalender yang terbesar tetapi dikenal yang namanya <strong>Windu</strong> yaitu 8 Tahun. Satuan windu ini dinamakan Tahun Jawa yang konsepnya tentu saja sangat berbeda dengan Tahun Masehi.</p>
