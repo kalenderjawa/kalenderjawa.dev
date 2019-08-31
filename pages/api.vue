@@ -35,6 +35,18 @@ console.<span class="hljs-built_in">log</span>(pasaran[<span class="hljs-number"
   <span class="hljs-built_in">index</span> = iterator.<span class="hljs-keyword">next</span>()
 }
 </code></pre>
+<h3 id="-araningsasi-"><code>araningSasi</code></h3>
+<p>Nama atau <em>araning</em> dari Sasi (Bulan)</p>
+<div class="content params">
+<p> <strong>Return</strong>:</p>
+<ul>
+<li>Array</li>
+</ul>
+</div>
+<p>Contoh</p>
+<pre><code class="javascript hljs"><span class="hljs-keyword">const</span> w = KalenderJawa.araningSasi
+console.<span class="hljs-built_in">log</span>(sasi[<span class="hljs-number">0</span>].wulan) <span class="hljs-comment">// mukarom</span>
+</code></pre>
 <h3 id="-taunjawa-"><code>taunJawa</code></h3>
 <div class="content params">
 <p><strong>Return</strong>:</p>
