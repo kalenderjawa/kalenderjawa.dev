@@ -1,6 +1,6 @@
 <template>
   <div class="container second-container">
-    <section class="section">
+    <section class="section section-home-card">
       <div class="card">
         <div class="card-content">
           <p class="text-quote">
