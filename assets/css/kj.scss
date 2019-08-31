@@ -444,23 +444,5 @@ a:hover {
   background-color: $color_dark !important;
 }
 
-/**
-@media screen and (min-width: 1024px) {
-  .navbar {
-    max-width: 960px !important;
-    margin: 0 auto;
-    // border-bottom: 1px solid;
-  }
-}
-*/
-
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  .layar {
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.5);  
-  }
-}
-
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
