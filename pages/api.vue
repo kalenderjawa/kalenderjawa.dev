@@ -10,7 +10,7 @@
 <h3 id="-araningpasaran-"><code>araningPasaran</code></h3>
 <p>Nama atau <em>araning</em> dari Pasaran</p>
 <div class="content params">
-<p> <strong>Return</strong>:</p>
+<p> <strong>Tipe Data</strong>:</p>
 <ul>
 <li>Array</li>
 </ul>
@@ -21,7 +21,7 @@ console.<span class="hljs-built_in">log</span>(pasaran[<span class="hljs-number"
 </code></pre>
 <h3 id="-araningdinten-"><code>araningDinten</code></h3>
 <div class="content params">
-<p><strong>Return</strong>:</p>
+<p><strong>Tipe Data</strong>:</p>
 <ul>
 <li>Array</li>
 </ul>
@@ -38,7 +38,7 @@ console.<span class="hljs-built_in">log</span>(pasaran[<span class="hljs-number"
 <h3 id="-araningsasi-"><code>araningSasi</code></h3>
 <p>Nama atau <em>araning</em> dari Sasi (Bulan)</p>
 <div class="content params">
-<p> <strong>Return</strong>:</p>
+<p> <strong>Tipe Data</strong>:</p>
 <ul>
 <li>Array</li>
 </ul>
@@ -49,7 +49,7 @@ console.<span class="hljs-built_in">log</span>(sasi[<span class="hljs-number">0<
 </code></pre>
 <h3 id="-taunjawa-"><code>taunJawa</code></h3>
 <div class="content params">
-<p><strong>Return</strong>:</p>
+<p><strong>Tipe Data</strong>:</p>
 <ul>
 <li>Array</li>
 </ul>
