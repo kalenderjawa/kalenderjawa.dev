@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import * as KalenderJawa from '@junwatu/kalender-jawa'
+import * as KalenderJawa from '@kalenderjawa/pustaka'
 
 export default {
   name: 'HPAwalBulan',
