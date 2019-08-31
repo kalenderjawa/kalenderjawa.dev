@@ -7,7 +7,7 @@
           <nuxt-link class="navbar-item" to="/api">API</nuxt-link>
           <nuxt-link class="navbar-item" to="/panduan">Panduan</nuxt-link>
           <nuxt-link class="navbar-item" to="/sejarah">Sejarah</nuxt-link>
-          <a class="navbar-item" href="https://github.com/kalenderjawa" alt="https://github.com/kalenderjawa"> 
+          <a class="navbar-item" href="https://github.com/kalenderjawa" alt="KalenderJawa Github" target="_blank" rel="noopener"> 
             <span class="icon is-large"><i class="fab fa-github"></i></span>
           </a>
         </div>
