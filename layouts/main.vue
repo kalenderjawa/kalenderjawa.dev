@@ -1,6 +1,6 @@
 <template>
   <div  class="layar home-background">
-    <nav class="navbar is-spaced">
+    <nav class="navbar is-spaced navbar-home">
       <div class="navbar-menu is-active">
         <div class="navbar-end">
           <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
@@ -17,7 +17,7 @@
     <section class="section top-grad"><div></div></section>
     -->
     <div class="container first-container">
-      <div class="section">
+      <div class="section section-home-title">
         <h1 class="text-logo mistis">
           pustaka
         </h1>
