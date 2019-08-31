@@ -90,6 +90,15 @@ table.sasi-table tbody {
   display: flex;
 }
 
+.home-background {
+  background-image: url('~assets/images/pukpik-386267-unsplash.jpg'), linear-gradient(135deg, #20c8cc 0%, #ac17cd 80%);;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  background-blend-mode: color-dodge;
+  max-height: 52em;
+}
+
 .grad-link {
   background-image: linear-gradient(135deg, #ac17cd 40%,   #20c8cc 80%);
   -webkit-text-fill-color: transparent;
@@ -216,12 +225,15 @@ a:hover {
   color: $color_dark;
 }
 
-.text-deskripsi {
-  font-weight: 400;
-  font-size: 1.2rem;
+.card {
+  opacity: .9;
+}
 
+.text-deskripsi {
+  font-weight: 300;
+  font-size: 1.2rem;
   padding: 15px 5.5rem;
-  color: $color_light;
+  color: $color_dark;
 }
 
 .title-fitur-align {
@@ -286,6 +298,10 @@ a:hover {
 
 .second-container > section:first-child {
   padding: 1rem 3.5rem;
+}
+
+.mdsec {
+  margin-top: 13rem;
 }
 
 .second-container .hero {
@@ -420,6 +436,14 @@ a:hover {
   }
 }
 */
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .layar {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+  }
+}
 
 // paling akhir -- last one
 @import '~bulma/bulma.sass';
