@@ -346,10 +346,11 @@ a:hover {
 }
 
 .api {
-  font-size: 1.2rem;
-  font-family: 'IBM Plex Mono';
+  //font-size: 1.2rem;
+  font-family: $family-monospace;
   color: $color_red_dark;
   font-weight: 600;
+  font-size: 3vw;
 }
 .hljs {
   //background: none !important;
