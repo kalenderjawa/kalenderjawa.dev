@@ -18,11 +18,12 @@ $color_red_light: hsla(353%, 86%, 54%, 1);
 $color_red_dark: hsla(350%, 96%, 43%, 1);
 $color_lighter_50: hsla(197%, 24%, 94%, .5);
 $color_magic: gold;
+$color_wates: whitesmoke;
 
 $family-sans-serif: 'Inter', sans-serif;
 $family-monospace: 'IBM Plex Mono', monospace;
 $footer-padding: 3rem 1.5rem 3rem;
-$footer-background-color: transparent;
+$footer-background-color: $color_wates;
 $weight-100: 100;
 $radius: 0px !important;
 
@@ -50,6 +51,7 @@ body {
 
 footer {
   background-color: $footer-background-color !important;
+  margin-top: 7em !important;
 }
 
 pre {
@@ -91,12 +93,13 @@ table.sasi-table tbody {
 }
 
 .home-background {
-  background-image: url('~assets/images/pukpik-386267-unsplash.jpg'), linear-gradient(135deg, #20c8cc 0%, #ac17cd 80%);;
+  // background-image: url('~assets/images/pukpik-386267-unsplash.jpg'), linear-gradient(135deg, #20c8cc 0%, #ac17cd 80%);;
+  background-image: url('~assets/images/pukpik-386267-unsplash.jpg'), linear-gradient(135deg, #20c8cc 0%, #ac17cd 80%), linear-gradient(270deg, #4cceff, #de43bae6);
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
-  background-blend-mode: color-dodge;
-  max-height: 52em;
+  background-blend-mode: lighten;
+  max-height: 40em;
 }
 
 .grad-link {
@@ -143,10 +146,16 @@ a:hover {
   }
 }
 
-.navbar {
+.navbar-lain {
+  // background-color: transparent !important;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  background-color: $color-wates !important;
+  // box-shadow: none !important;                                                                
+}
+
+.navbar-home {
+  box-shadow: none !important;
   background-color: transparent !important;
-  // box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  box-shadow: none !important;                                                                
 }
 
 .navbar-end a {
@@ -191,6 +200,14 @@ a:hover {
   padding: 4rem 1.5rem 0rem !important;
 }
 
+.section-home-card {
+  padding: 0rem 0rem 2.5rem 0rem !important;
+}
+
+.section-home-title {
+  padding: 0rem 1.5rem 0rem !important;
+}
+
 .footer {
   color: $color_dark;
   padding: 3rem 1.5rem 3rem !important;
@@ -226,7 +243,7 @@ a:hover {
 }
 
 .card {
-  opacity: .9;
+  opacity: 1;
 }
 
 .text-deskripsi {
@@ -270,7 +287,7 @@ a:hover {
 
 .thin-line div {
   height: 4px;
-  background-image: linear-gradient(135deg, #20c8cc 0%, #ac17cd 80%);
+  background-image: linear-gradient(135deg,  #ac17cd 0%,  #20c8cc 80%);
 }
 
 //final
@@ -301,7 +318,7 @@ a:hover {
 }
 
 .mdsec {
-  margin-top: 13rem;
+  margin-top: 8rem;
 }
 
 .second-container .hero {
@@ -348,7 +365,7 @@ a:hover {
 }
 
 .demo-result {
-  background-color: $color_light;
+  background-color: white;
   padding: 3rem 1.5rem !important;
   text-align: center;
   margin: .7em;
