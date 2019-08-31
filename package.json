@@ -13,8 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@junwatu/kalender-jawa": "git+https://1632993a564b8bfe50b02683b6399fe4f2f8f2bd:x-oauth-basic@github.com/junwatu/kalender-jawa.git",
-    "@kalenderjawa/pustaka": "git+https://1632993a564b8bfe50b02683b6399fe4f2f8f2bd:x-oauth-basic@github.com/junwatu/kalender-jawa.git",
+    "@kalenderjawa/pustaka": "git+https://1632993a564b8bfe50b02683b6399fe4f2f8f2bd:x-oauth-basic@github.com/junwatu/pustaka.git",
     "@nuxtjs/bulma": "^1.2.1",
     "@nuxtjs/pwa": "^3.0.0-0",
     "highlight.js": "^9.15.10",
