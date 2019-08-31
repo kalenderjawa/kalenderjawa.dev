@@ -345,7 +345,6 @@ a:hover {
 }
 
 .api {
-  //font-size: 1.2rem;
   font-family: $family-monospace;
   color: $color_red_dark;
   font-weight: 600;
@@ -424,24 +423,24 @@ a:hover {
   margin-left: 0em !important;
 }
 
-@media screen and (min-width: 960px) {
-  .table-container {
-    max-width: 40% !important;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .container {
-    //max-width: 960px !important;
-  }
-}
-
 .kjs {
   margin: 0em 1em;
 }
 
 .button.is-dark {
   background-color: $color_dark !important;
+}
+
+@media screen and (min-width: 960px) {
+  .table-container {
+    max-width: 40% !important;
+  } 
+}
+
+@media screen and (min-width: 1024px) {
+  .api {
+    font-size: 1.2rem !important;
+  }
 }
 
 // paling akhir -- last one
