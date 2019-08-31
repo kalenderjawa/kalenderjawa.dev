@@ -19,7 +19,7 @@
     </div>
     <pre v-highlightjs>
       <code class="javascript">
-import * as KalenderJawa from '@junwatu/kalender-jawa'
+import * as KalenderJawa from '@kalenderjawa/pustaka'
 
 KalenderJawa.sasi('mukarom', 1953).then({ k, s } => {
   console.log(s.get(k))

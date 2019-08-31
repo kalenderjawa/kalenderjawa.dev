@@ -52,7 +52,7 @@ KalenderJawa.cariKurupTahunJawa(1994).then( d => {
 </template>
 
 <script>
-import * as KalenderJawa from '@junwatu/kalender-jawa'
+import * as KalenderJawa from '@kalenderjawa/pustaka'
 
 export default {
   name: 'CKTJawa',

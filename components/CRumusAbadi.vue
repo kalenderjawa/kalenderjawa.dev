@@ -66,7 +66,7 @@ KalenderJawa.cariRumusAbadiAwalBulanTahunJawa('romadon', 1952).then(data => {
 </template>
 
 <script>
-import * as KalenderJawa from '@junwatu/kalender-jawa'
+import * as KalenderJawa from '@kalenderjawa/pustaka'
 
 export default {
   name: 'CRumusAbadi',

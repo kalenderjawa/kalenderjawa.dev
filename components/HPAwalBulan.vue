@@ -16,7 +16,7 @@
         </div>
         <pre v-highlightjs>
           <code class="javascript">
-  import * as KalenderJawa from '@junwatu/kalender-jawa'
+  import * as KalenderJawa from '@kalenderjawa/pustaka'
 
   KalenderJawa.cariHariPasaranAwalBulanTahunJawa('romadon', 1952).then({kH, kP} => {
     console.log(`${kH.dino} ${kP.pasaran}`) // senen legi
