@@ -1,5 +1,5 @@
 <template>
-  <div  class="layar">
+  <div  class="layar home-background">
     <nav class="navbar is-spaced">
       <div class="navbar-menu is-active">
         <div class="navbar-end">
@@ -18,10 +18,10 @@
     -->
     <div class="container first-container">
       <div class="section">
-        <h1 class="text-logo">
+        <h1 class="text-logo mistis">
           pustaka
         </h1>
-        <h1 class="text-logo">
+        <h1 class="text-logo mistis">
           kalender jawa
         </h1>
         <p class="text-deskripsi">
