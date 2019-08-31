@@ -7,7 +7,7 @@
           "Dengan terhafal dalam bentuk nyanyian, kalender Jawa akan terbawa kemana saja pergi, dan masih memiliki tingkat akurasi tinggi sampai 994 tahun lagi. Setelah itu baru ada koreksi +1 hari sebelum Ambal Kurup Alip Senen Kliwon, 1 Sura 2947 Jawa (26 Januari 2984 Masehi)"
           </p>
           <p class="text-quote-contrib">
-            - <a href="https://www.caknun.com/2019/kalender-jowo-digowo-kalender-arab-digarap-kalender-barat-diruwat/" target="_blank">caknun.com</a>
+            - <a href="https://www.caknun.com/2019/kalender-jowo-digowo-kalender-arab-digarap-kalender-barat-diruwat/" target="_blank" rel="noopener">caknun.com</a>
           </p>
         </div>
       </div>
