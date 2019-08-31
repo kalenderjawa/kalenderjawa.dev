@@ -16,6 +16,8 @@ $color_light: hsla(218%, 17%, 62%, 1);
 $color_lighter: hsla(197%, 24%, 94%, 1);
 $color_red_light: hsla(353%, 86%, 54%, 1);
 $color_red_dark: hsla(350%, 96%, 43%, 1);
+$color_lighter_50: hsla(197%, 24%, 94%, .5);
+$color_magic: gold;
 
 $family-sans-serif: 'Inter', sans-serif;
 $family-monospace: 'IBM Plex Mono', monospace;
@@ -31,7 +33,7 @@ $navbar-breakpoint: 0;
 html { 
   font-family:  $family-sans-serif;
   // background-color: transparent !important;
-  background-color: $color_lighter !important;
+  background-color: $color_lighter !important;  
 }
 
 @supports (font-variation-settings: normal) {
@@ -65,11 +67,11 @@ h3 code {
 }
 
 ::selection {
-  background: gold !important;
+  background: $color_magic !important;
 }
 
 ::-moz-selection {
-  background: gold !important;
+  background: $color_magic !important;
 }
 
 input:invalid {
@@ -88,10 +90,33 @@ table.sasi-table tbody {
   display: flex;
 }
 
+.grad-link {
+  background-image: linear-gradient(135deg, #ac17cd 40%,   #20c8cc 80%);
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  -webkit-background-clip: text !important;
+}
+
+.grad-link:hover {
+  background-image: linear-gradient(135deg, #ac17cd 0%, #20c8cc 80%) !important;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  -webkit-background-clip: text !important;
+}
+
+a {
+  color: $color_dark !important;
+}
+
+a:hover {
+  color: $color_red_light;
+}
+
 
 .label-abang {
   color: $color_red_light !important;
 }
+
 // first tag
 .layar {
   height: -webkit-fill-available;
@@ -100,6 +125,7 @@ table.sasi-table tbody {
 .navbar-end {
   //background-image: linear-gradient(180deg, red, #e20000);
   //box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+
 }
 
 @media screen and (max-width: 1023px) {
@@ -116,10 +142,24 @@ table.sasi-table tbody {
 
 .navbar-end a {
   // color: white;
-  color: $color_dark;
-  font-weight: 300;
+  color: $color_light;
+  /**
+  background: linear-gradient(135deg, #20c8cc 0%, #ac17cd 80%);
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  -webkit-background-clip: text !important;
+  */
+  font-weight: 400;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+}
+
+.navbar-end a:hover, a:hover {
+  background: linear-gradient(135deg, $color_red_light 30%, $color_red_dark 70%,) !important;
+  // color: $color_red_dark !important;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  -webkit-background-clip: text !important;
 }
 
 .navbar-menu {
@@ -231,7 +271,7 @@ table.sasi-table tbody {
 }
 
 .top-grad {
-  background-image: linear-gradient(180deg, white, transparent);
+  background: linear-gradient(135deg, $color_light 0%, $color_lighter 80%);
   position: fixed;
   top: 0px;
   left: 0px;
@@ -365,6 +405,10 @@ table.sasi-table tbody {
 
 .kjs {
   margin: 0em 1em;
+}
+
+.button.is-dark {
+  background-color: $color_dark !important;
 }
 
 /**
