@@ -431,6 +431,10 @@ a:hover {
   background-color: $color_dark !important;
 }
 
+.table-container {
+  max-width: 100% !important;
+}
+
 @media screen and (min-width: 960px) {
   .table-container {
     max-width: 40% !important;
