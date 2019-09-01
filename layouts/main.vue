@@ -30,21 +30,19 @@
       </div>
     </div>
     <nuxt />
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          <span>Pustaka Kalender Jawa Abadi</span>
-          <br/>
-          © 2019, <a href="https://sajen.id" class="grad-link">Equan Pr</a> & Kolaborator
-          <br/>
-          Lisensi dari isi website <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
-        </p>
-      </div>
-    </footer>
-  
+    <Footer/>
     <section class="section bottom-section thin-line">
       <div></div>
     </section>
-
   </div>
 </template>
+
+<script>
+import Footer from '~/components/Footer.vue'
+
+export default {
+  components: {
+    Footer
+  }
+}
+</script>  
