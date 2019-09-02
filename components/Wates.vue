@@ -10,14 +10,6 @@
 </code></pre>
 </div>
 
-<p>Memakai pustaka dengan <code>import</code> ES6</p>
-
-<div class="javascript hljs">
-<pre><code class="lang-js"><span class="hljs-keyword">import</span> * as KalenderJawa <span class="hljs-keyword">from</span> <span class="hljs-string">'@kalenderjawa/pustaka'</span>
-
-KalenderJawa.cariKurupTahunJawa(<span class="hljs-number">1881</span>).<span class="hljs-keyword">then</span>(<span class="hljs-comment">/**...*/</span>)
-</code></pre>
-</div>
 <h3 id="browser">Browser</h3>
 <p>Jika anda memakai browser pustaka ini bisa di ambil melalui CDN (<em>Content Delivery Network</em>) di <code>unpkg.com</code>. </p>
 <p>Kode berikut akan mengambil pustaka dengan versi terbaru dari CDN</p>
@@ -26,6 +18,15 @@ KalenderJawa.cariKurupTahunJawa(<span class="hljs-number">1881</span>).<span cla
 </code></pre>
 </div>
     </div>
+
+    <p>Memakai pustaka dengan <code>import</code> ES6</p>
+
+<div class="javascript hljs">
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * as KalenderJawa <span class="hljs-keyword">from</span> <span class="hljs-string">'@kalenderjawa/pustaka'</span>
+
+KalenderJawa.cariKurupTahunJawa(<span class="hljs-number">1881</span>).<span class="hljs-keyword">then</span>(<span class="hljs-comment">/**...*/</span>)
+</code></pre>
+</div>
   </div>
 </template>
 
