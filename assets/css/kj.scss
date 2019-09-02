@@ -241,6 +241,14 @@ a:hover {
   color: $color_dark;
 }
 
+.social:hover {
+  background-image: linear-gradient(135deg, #ac17cd 0%, #20c8cc 80%) !important;
+  -webkit-text-fill-color: inherit;
+}
+
+.fa-circle:hover {
+  color: $color_red_dark !important;
+}
 .card {
   opacity: 1;
 }
@@ -379,7 +387,7 @@ a:hover {
 .code-demo-result {
   font-size: 2.5em;
   text-transform: uppercase;
-  font-family: "IBM Plex Mono";
+  font-family: $family-monospace;
   color: $color_red_light;
   line-height: 1;
   margin-left: -0.05em
