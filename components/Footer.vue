@@ -3,11 +3,8 @@
       <div class="level">
         <div class="level-left">
           <div class="level-item">
-            <a href="https://twitter.com/KalenderJawaDev" class="social">
-              <span class="fa-stack">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
+            <a href="https://twitter.com/KalenderJawaDev" class="social grad-link">
+              <i>twitter</i>
             </a>
           </div>
         </div>

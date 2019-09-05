@@ -3,6 +3,7 @@
 @charset "utf-8";
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
@@ -241,13 +242,6 @@ a:hover {
   color: $color_dark;
 }
 
-.social:hover {
-  -webkit-text-fill-color: inherit;
-}
-
-.fa-circle:hover {
-  color: $color_red_dark !important;
-}
 .card {
   opacity: 1;
 }
@@ -441,6 +435,10 @@ a:hover {
 
 .button.is-dark {
   background-color: $color_dark !important;
+}
+
+.social {
+  font-family: 'Pacifico', cursive;
 }
 
 @media screen and (min-width: 960px) {
