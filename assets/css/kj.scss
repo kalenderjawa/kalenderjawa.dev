@@ -242,7 +242,6 @@ a:hover {
 }
 
 .social:hover {
-  background-image: linear-gradient(135deg, #ac17cd 0%, #20c8cc 80%) !important;
   -webkit-text-fill-color: inherit;
 }
 
@@ -358,9 +357,14 @@ a:hover {
   font-weight: 600;
   font-size: 3vw;
 }
+
 .hljs {
-  //background: none !important;
+  //background-color: $color_dark !important;
   padding: 10px 20px !important;
+}
+
+.is-light {
+  border: 1.25px solid white !important;
 }
 
 .code-deskripsi {
