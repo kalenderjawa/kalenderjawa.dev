@@ -11,7 +11,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'google-site-verification', content: 'nnMyQZtqIzLmDf0eyZKMXXy84S0u4A5G8zm2D1zCdmk'},
+      { name: 'google-site-verification', content: 'nnMyQZtqIzLmDf0eyZKMXXy84S0u4A5G8zm2D1zCdmk' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Website Pustaka Kalender Jawa, Pustaka JavaScript untuk perhitungan, pengkonversian dan penanggalan Kalender Jawa Abadi' }
     ],
