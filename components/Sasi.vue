@@ -51,7 +51,7 @@ KalenderJawa.sasi('mukarom', 1953).then({ k, s } => {
         </div>
         <div class="field">
           <div class="control">
-            <button class="button is-dark" v-on:click="cariSasiPenuh()">
+            <button class="button is-light" v-on:click="cariSasiPenuh()">
               Daftar Hari & Pasaran
             </button>
           </div>

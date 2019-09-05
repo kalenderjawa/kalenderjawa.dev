@@ -36,7 +36,7 @@ KalenderJawa.cariKurupTahunJawa(1994).then( d => {
         </div>
         <div class="field">
           <div class="control">
-            <button class="button is-dark" v-on:click="cariKurup()">
+            <button class="button is-light" v-on:click="cariKurup()">
               Cari Kurup
             </button>
           </div>
