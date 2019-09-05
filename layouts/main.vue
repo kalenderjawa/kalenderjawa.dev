@@ -1,5 +1,8 @@
 <template>
+  <!--
   <div  class="layar home-background">
+  -->
+  <div  class="layar">
     <nav class="navbar navbar-home">
       <Navin/>
     </nav>
