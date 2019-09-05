@@ -28,7 +28,7 @@ export default {
   */
   css: [
     '@/assets/css/kj.scss',
-    '@/node_modules/highlight.js/scss/gruvbox-dark.scss'
+    '@/node_modules/highlight.js/scss/github.scss'
   ],
   /*
   ** Plugins to load before mounting the App
