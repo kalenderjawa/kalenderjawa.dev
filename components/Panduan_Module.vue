@@ -11,8 +11,24 @@
     <p>Belum release saat ini.</p>
     
     <h4>Beta</h4>
-    <p>Versi <code>v1.0.0-beta.8</code> keatas.</p>
-    
+    <p>Mulai versi <a href="https://www.npmjs.com/package/@kalenderjawa/pustaka/v/1.0.0-beta.8.esm.0"><strong>v1.0.0-beta.8</strong></a> keatas, paket npm akan disertakan versi pustaka dengan dukungan Modul ES6 tetapi perlu
+    diingat bahwa Modul ES6 pada pustaka saat ini hanya berlaku untuk browser saja!.</p>
+    <p>Anda bisa mereferensikan paket npm dengan dukungan Modul ES6 ini melalui <code>unpkg.com</code> maupun melalui <code>jsDelivr</code>.</p>
+    <div>
+      <pre v-highlightjs>
+        <code>
+&lt;script type=&quot;module&quot;&gt;
+  const url = 'https://unpkg.com/@kalenderjawa/pustaka@1.0.0-beta.8.esm.0/lib/kalenderjawa.min.mjs'
+  import { sasi } from `${url}` 
+  
+  sasi('mukarom',1999).then( { k, s } =&gt; {
+    console.log(s.get(k)))
+  }
+&lt;/script&gt;</code>
+      </pre>
+    </div>
+    <p>yang perlu menjadi catatan yaitu kode diatas mereferensikan pustaka dengan ekstensi <code>.mjs</code> bukan <code>.js</code></p>
+
     <h4>Eksperimental</h4>
     <p>Versi ini adalah versi pengembangan dan hanya diperuntukkan bagi pengguna yang memakai browser yang PASTI mendukung modul ES6.</p>
     <p>Perbedaan mendasar dengan versi beta maupun stabil adalah pada versi eksperimental tidak terdapat dependensi apapun sehingga
@@ -27,7 +43,7 @@
       <pre v-highlightjs>
         <code class="javascript hljs">
 &lt;script type="module"&gt;
-  const url = https://cdn.jsdelivr.net/npm/@kalenderjawa/pustaka@1.0.0-beta.7-native-module-eksperimen
+  const url = 'https://cdn.jsdelivr.net/npm/@kalenderjawa/pustaka@1.0.0-beta.7-native-module-eksperimen'
   import { cariKurupTahunJawa } from `${url}` 
   
   cariKurupTahunJawa(1999).then( x => {
