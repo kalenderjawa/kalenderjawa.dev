@@ -19,8 +19,8 @@
         <div class="hero-body">
           <div class="columns">
             <div class="column"></div>
-            <div class="column is-three-quarters install">
-              <p>$ npm install --save @kalenderjawa/pustaka</p>
+            <div class="column has-text-centered">
+              <a class="button is-large release-button" href="https://github.com/kalenderjawa/pustaka/releases">v1.0.0-beta.7</a>
             </div>
             <div class="column"></div>
           </div>
