@@ -3,6 +3,7 @@
     <div class="content">
       <Wates/>
       <EmbedCS/>
+      <PanduanModule/>
     </div>
   </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import Wates from '~/components/Wates.vue'
 import EmbedCS from '~/components/EmbedCS.vue'
+import PanduanModule from '~/components/Panduan_Module.vue'
 
 export default {
   layout: 'dok',
   components: {
     Wates,
-    EmbedCS
+    EmbedCS,
+    PanduanModule
   },
   head () {
     return {
