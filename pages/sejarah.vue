@@ -22,7 +22,7 @@
 <li>Kalender Jawa Memakai sistem hari 7 <em>(saptawara)</em> yang sesuai dengan sistem hari pada kalender Masehi.</li>
 <li>Kalender Jawa mamakai sistem 5 <em>(pancawara)</em> atau sering dikenal dengan Pasaran.</li>
 <li>Kalender Jawa mempunyai siklus 8 tahunan (satu windu).</li>
-<li>Koreksi keberulangan terjadi setiap 120 tahun sekali (15 windu) atau istilahnya yaitu <strong>Salin Kurup</strong> atau <strong>Ganti Kurup</strong> (pengkoreksian yaitu dengan menambah 1 hari tiap 120 tahun).</li>
+<li>Koreksi keberulangan terjadi pada 120 tahun (15 windu) atau istilahnya yaitu <strong>Salin Kurup</strong> atau <strong>Ganti Kurup</strong> (pengkoreksian yaitu dengan menambah 1 hari tiap 120 tahun).</li>
 </ul>
 </div>
 <hr>
