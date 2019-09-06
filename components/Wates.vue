@@ -19,15 +19,16 @@
 </div>
     </div>
 
-    <p>Memakai pustaka dengan <code>import</code> ES6</p>
-
+<p>Memakai pustaka dengan <code>import</code> ES6</p>
 <div class="javascript hljs">
-<pre><code class="lang-js"><span class="hljs-keyword">import</span> * as KalenderJawa <span class="hljs-keyword">from</span> <span class="hljs-string">'@kalenderjawa/pustaka'</span>
+<pre>
+<code class="lang-js"><span class="hljs-keyword">import</span> * as KalenderJawa <span class="hljs-keyword">from</span> <span class="hljs-string">'@kalenderjawa/pustaka'</span>
 
 KalenderJawa.cariKurupTahunJawa(<span class="hljs-number">1881</span>).<span class="hljs-keyword">then</span>(<span class="hljs-comment">/**...*/</span>)
-</code></pre>
+</code>
+</pre>
 </div>
-  </div>
+</div>
 </template>
 
 <script>
