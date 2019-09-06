@@ -25,7 +25,7 @@
     </div>
     <p>Untuk memakai modul di browser pastikan <code>type="module"</code> ditulis pada tag script.</p>
       <pre v-highlightjs>
-        <code class="javascript">
+        <code class="javascript hljs">
 &lt;script type="module"&gt;
   const url = https://cdn.jsdelivr.net/npm/@kalenderjawa/pustaka@1.0.0-beta.7-native-module-eksperimen
   import { cariKurupTahunJawa } from `${url}` 
