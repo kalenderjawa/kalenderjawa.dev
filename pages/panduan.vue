@@ -9,6 +9,11 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import VueHighlightJS from 'vue-highlightjs'
+
+Vue.use(VueHighlightJS)
+
 import Wates from '~/components/Wates.vue'
 import EmbedCS from '~/components/EmbedCS.vue'
 import PanduanModule from '~/components/Panduan_Module.vue'
