@@ -444,6 +444,24 @@ a:hover {
   font-family: $family-ttd;
 }
 
+.social a {
+  margin: 0em 1.0em;
+}
+
+.social a i {
+  color: $color_light;
+}
+
+.social a:hover {
+  -webkit-text-fill-color: unset !important;
+  -webkit-background-clip: unset !important;
+  background: none !important;
+}
+
+.social a:hover i {
+  color: $color_red_dark;
+}
+
 .release-button {
   font-family: $family-sans-serif;
   background-color: $color_red_dark !important;
