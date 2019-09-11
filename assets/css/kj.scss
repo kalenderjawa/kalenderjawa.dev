@@ -482,6 +482,11 @@ a:hover {
   color: $color_lighter !important;
 }
 
+.app-link {
+  color: darkorchid !important;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 960px) {
   .table-container {
     max-width: 40% !important;

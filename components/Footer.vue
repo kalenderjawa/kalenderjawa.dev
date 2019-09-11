@@ -17,7 +17,10 @@
             <span><a href="https://kalenderjawa.dev">Pustaka Kalender Jawa</a></span>
           </div>
           <div class="level-item">
-            <span>© 2019, <a href="https://sajen.id" class="grad-link">Equan Pr</a> & Kolaborator</span>
+            <span><a href="https://app.kalenderjawa.dev" class="app-link">App (Beta)</a></span>
+          </div>
+          <div class="level-item">
+            <span> © 2019, <a href="https://sajen.id" class="grad-link">Equan Pr</a> & Kolaborator</span>
           </div>
         </div>
       </div>
