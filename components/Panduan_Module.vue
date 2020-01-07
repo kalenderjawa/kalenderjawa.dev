@@ -18,8 +18,7 @@
       <pre v-highlightjs>
         <code>
 &lt;script type=&quot;module&quot;&gt;
-  const url = 'https://unpkg.com/@kalenderjawa/pustaka@1.0.0-beta.8.esm.0/lib/kalenderjawa.min.mjs'
-  import { sasi } from `${url}` 
+  import { sasi } from 'https://unpkg.com/@kalenderjawa/pustaka@1.0.0-beta.8.esm.0/lib/kalenderjawa.min.mjs'
   
   sasi('mukarom',1999).then( { k, s } =&gt; {
     console.log(s.get(k)))
@@ -43,8 +42,7 @@
       <pre v-highlightjs>
         <code class="javascript hljs">
 &lt;script type="module"&gt;
-  const url = 'https://cdn.jsdelivr.net/npm/@kalenderjawa/pustaka@1.0.0-beta.7-native-module-eksperimen'
-  import { cariKurupTahunJawa } from `${url}` 
+  import { cariKurupTahunJawa } from 'https://cdn.jsdelivr.net/npm/@kalenderjawa/pustaka@1.0.0-beta.7-native-module-eksperimen' 
   
   cariKurupTahunJawa(1999).then( x => {
       console.log(x)

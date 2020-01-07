@@ -75,7 +75,7 @@
               RAMAH PENGEMBANG
             </p>
             </div>
-            <p class="fitur-deskripsi">Pustaka ini dibuat, diperuntukkan dan didukung oleh komunitas sehingga jika ada kesulitan, saran ataupun kritik silahkan menggisi <i>issue</i> ke <a href="https://github.com/kalenderjawa/pustaka/issues" target="_blank" rel="noopener">Github</a> kami.</p>
+            <p class="fitur-deskripsi">Pustaka ini dibuat, diperuntukkan dan didukung oleh komunitas sehingga jika ada kesulitan, saran ataupun kritik silahkan menggisi <i>issue</i> ke <strong><a href="https://github.com/kalenderjawa/pustaka/issues" target="_blank" rel="noopener">Github</a></strong> kami.</p>
           </div>
         </div>
       </div>

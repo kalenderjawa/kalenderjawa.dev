@@ -6,10 +6,12 @@
             <a href="https://twitter.com/KalenderJawaDev" title="Silahkan mention atau follow, trims!">          
               <i class="fab fa-twitter fa-lg"></i>
             </a>
+            <!---
             <a href="https://join.slack.com/t/kalender-jawa/shared_invite/enQtNzM3MjA1OTM3OTg5LWExZTEyYTZhYWQ5NGRkOWU0NGZiZjk1Y2ZhY2M5N2E3NWUyYjI0Y2YwNDEyOTFiZTMwYTgxZjEyNzE1YjZiMzk"
             title="Kalau mau diskusi di Slack yuk... :)">
               <i class="fab fa-slack fa-lg"></i>
             </a>
+            -->
           </div>
         </div>
         <div class="level-right">

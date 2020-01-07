@@ -67,7 +67,7 @@ export default {
     extend (config, ctx) {
     },
     babel: {
-      presets({ isServer }) {
+      presets ({ isServer }) {
         return [
           [
             require.resolve('@nuxt/babel-preset-app'),
