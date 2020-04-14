@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Pustaka Kalender Jawa',
+    title: 'Website Pustaka Kalender Jawa | Developer JavaScript',
     htmlAttrs: {
       lang: 'id'
     },
@@ -19,7 +19,12 @@ export default {
       { name: 'og:locale', content: 'id_ID' },
       { name: 'og:description', content: 'Website Pustaka Sumber Terbuka (Open Source) Kalender Jawa Abadi' },
       { name: 'og:title', content: 'Kalender Jawa' },
-      { name: 'og:type', content: 'website' }
+      { name: 'og:type', content: 'website' },
+
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@junwatu' },
+      { name: 'twitter:url', content: 'https://twitter.com/junwatu' },
+      { name: 'twitter:description', content: 'Website Pustaka Kalender Jawa, Pustaka JavaScript untuk perhitungan, pengkonversian dan penanggalan Kalender Jawa Abadi' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
