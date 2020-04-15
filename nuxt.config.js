@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Website Pustaka Kalender Jawa | Developer JavaScript',
+    title: 'Website Pustaka Kalender Jawa Abadi | JavaScript Library',
     htmlAttrs: {
       lang: 'id'
     },
