@@ -88,7 +88,6 @@ export default {
   layout: 'main',
   head () {
     return {
-    title: 'Pustaka Kalender Jawa',
     meta: [
       { hid: 'description', name: 'description', content: 'Pustaka JavaScript untuk perhitungan, pengkonversian dan penanggalan Kalender Jawa Abadi' }
     ]
