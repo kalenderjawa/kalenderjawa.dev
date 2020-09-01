@@ -18,39 +18,16 @@
       <pre v-highlightjs>
         <code>
 &lt;script type=&quot;module&quot;&gt;
-  import { sasi } from 'https://unpkg.com/@kalenderjawa/pustaka@1.0.0-beta.9/lib/kalenderjawa.min.mjs'
+import { sasi } from 'https://unpkg.com/@kalenderjawa/pustaka@1.0.0-beta.9/lib/kalenderjawa.min.mjs'
   
-  sasi('mukarom',1999).then( { k, s } =&gt; {
-    console.log(s.get(k)))
-  }
+sasi('mukarom',1999).then( { k, s } =&gt; {
+  console.log(s.get(k)))
+}
 &lt;/script&gt;</code>
       </pre>
     </div>
-    <p>yang perlu menjadi catatan yaitu kode diatas mereferensikan pustaka dengan ekstensi <code>.mjs</code> bukan <code>.js</code></p>
-
-    <h4>Eksperimental</h4>
-    <p>Versi ini adalah versi pengembangan dan hanya diperuntukkan bagi pengguna yang memakai browser yang PASTI mendukung modul ES6.</p>
-    <p>Perbedaan mendasar dengan versi beta maupun stabil adalah pada versi eksperimental tidak terdapat dependensi apapun sehingga
-      ukuran berkas yang akan di download oleh browser jauh lebih kecil dibandingkan dengan versi beta atau stabil.</p>
-    <p><strong>jsdelivr</strong></p>
-    <div class="javascript hljs">
-    <pre> 
-<code>https://cdn.jsdelivr.net/npm/@kalenderjawa/pustaka@1.0.0-beta.7-native-module-eksperimen</code>
-    </pre>
-    </div>
-    <p>Untuk memakai modul di browser pastikan <code>type="module"</code> ditulis pada tag script.</p>
-      <pre v-highlightjs>
-        <code class="javascript hljs">
-&lt;script type="module"&gt;
-  import { cariKurupTahunJawa } from 'https://cdn.jsdelivr.net/npm/@kalenderjawa/pustaka@1.0.0-beta.7-native-module-eksperimen' 
-  
-  cariKurupTahunJawa(1999).then( x => {
-      console.log(x)
-  })
-&lt;/script&gt;
-        </code>
-      </pre>
-      <p>Jika ada yang ditanyakan atau kurang jelas silahkan bertanya atau mengisi <i>issue</i> di <strong><a href="https://github.com/kalenderjawa/pustaka/issues">Github</a></strong>.</p> 
+    <p>yang perlu menjadi catatan yaitu kode diatas mereferensikan pustaka yang berekstensi <code>.mjs</code> bukan <code>.js</code>.</p>
+    <p>Jika ada yang ditanyakan atau kurang jelas silahkan bertanya atau <a href="https://github.com/kalenderjawa/pustaka/issues">mengisi <i>issue</i> di <strong>Github</strong></a>.</p> 
   </div>
 </div>
 </template>
