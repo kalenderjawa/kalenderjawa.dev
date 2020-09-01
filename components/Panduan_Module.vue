@@ -18,7 +18,7 @@
       <pre v-highlightjs>
         <code>
 &lt;script type=&quot;module&quot;&gt;
-  import { sasi } from 'https://unpkg.com/@kalenderjawa/pustaka@1.0.0-beta.8.esm.0/lib/kalenderjawa.min.mjs'
+  import { sasi } from 'https://unpkg.com/@kalenderjawa/pustaka@1.0.0-beta.9/lib/kalenderjawa.min.mjs'
   
   sasi('mukarom',1999).then( { k, s } =&gt; {
     console.log(s.get(k)))
@@ -50,7 +50,7 @@
 &lt;/script&gt;
         </code>
       </pre>
-      <p>Jika ada yang ditanyakan atau kurang jelas silahkan ask atau isi issue di <strong><a href="https://github.com/kalenderjawa/pustaka/issues">Github</a></strong>.</p> 
+      <p>Jika ada yang ditanyakan atau kurang jelas silahkan bertanya atau mengisi <i>issue</i> di <strong><a href="https://github.com/kalenderjawa/pustaka/issues">Github</a></strong>.</p> 
   </div>
 </div>
 </template>
