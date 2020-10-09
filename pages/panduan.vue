@@ -1,9 +1,13 @@
 <template>
   <div class="container api-container">
     <div class="content">
+      <PanduanModule/>
       <Wates/>
       <EmbedCS/>
-      <PanduanModule/>
+      <br>
+      <div>
+         <p>Jika ada yang ditanyakan atau kurang jelas silahkan bertanya atau <a href="https://github.com/kalenderjawa/pustaka/issues">mengisi <i>issue</i> di <strong>Github</strong></a>.</p> 
+      </div>
     </div>
   </div>
 </template>
