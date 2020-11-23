@@ -24,7 +24,7 @@
             <span><a href="https://kalenderjawa.dev">Pustaka Kalender Jawa</a></span>
           </div>
           <div class="level-item">
-            <span><a href="https://app.kalenderjawa.dev" class="app-link">App (Beta)</a></span>
+            <span><a href="https://app.kalenderjawa.dev" class="app-link">Sengkala</a></span>
           </div>
           <div class="level-item">
             <span> © 2020, <a href="https://sajen.id" class="grad-link">Equan Pr</a> & Kolaborator</span>
