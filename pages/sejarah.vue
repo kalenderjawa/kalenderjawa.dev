@@ -3,7 +3,10 @@
     <div class="content">
       <h1 id="kalender-jawa">Kalender Jawa</h1>
 <h2 id="sejarah">Sejarah</h2>
-<p>Kalender atau Penanggalan Jawa merupakan penanggalan yang dibawa oleh para leluhur Jawa dan kemudian diolah lebih lanjut oleh para Wali. Sebelum masa para Wali, para leluhur Jawa telah memakai penanggalan berdasarkan matahari atau Saka dan juga berdasarkan bulan dan dalam perkembangan selanjutnya para Wali yang berkolaborasi dengan para leluhur bangsa Jawa tersebut menghasilkan Penanggalan Jawa yang baru tetapi berdasarkan pergerakan bulan dan Penanggalan Jawa baru ini sudah umum dipakai sejak Raden Patah menjadi Sultan Demak yang pertama. </p>
+<p>Kalender atau Penanggalan Jawa merupakan penanggalan yang dibawa oleh para leluhur Jawa dan kemudian diolah lebih lanjut oleh para Wali. Sebelum masa para Wali, para leluhur Jawa telah memakai penanggalan berdasarkan matahari atau Saka dan juga berdasarkan bulan.</p> 
+
+<p>Dalam perkembangan selanjutnya para Wali yang berkolaborasi dengan para leluhur bangsa Jawa tersebut menghasilkan Penanggalan Jawa yang baru tetapi berdasarkan pergerakan bulan dan Penanggalan Jawa baru ini sudah umum dipakai sejak Raden Patah menjadi Sultan Demak yang pertama. </p>
+
 <p>Momen dimana Raden Patah menjadi sultan pertama di Demak ini ditandai dengan <em>Sengkalan</em> atau <em>Candra Sengkala</em>,</p>
 <h3 id="-catur-ilang-sucining-ratu-" class="label-abang"><em>Catur Ilang Sucining Ratu</em></h3>
 <p>Sengkalan tersebut menandakan tahun 1404 Saka (887 H, 1482 M) atau 4 tahun setelah runtuhnya Majapahit.</p>
@@ -14,6 +17,7 @@
 <div class="notification">
 <p>Kalau dihitung-hitung dan dinalar sebenarnya para leluhur bangsa Indonesia jauh lebih cepat dalam perumusan dan pemakaian sistem kalender yaitu 100 tahun lebih awal dibandingkan Kalender Gregorian atau Masehi (peresmian Kalender Masehi adalah tahun 1582 M).</p>
 </div>
+
 <h2 id="sistematis">Sistematis</h2>
 <p>Pada perkembangannya Kalender Jawa sebenarnya sangatlah kompleks hanya saja dalam Pustaka Kalender Jawa ini hanya diimplementasikan konsep-konsep dasar dari Kalender Jawa.</p>
 <p>Berikut aturan atau sistematis dari Kalender Jawa yang perlu menjadi acuan:</p>
@@ -29,7 +33,7 @@
 <p>Beberapa sistematis berikut juga termasuk dalam Kalender Jawa hanya saja tidak (belum ada rencana) di implementasikan dalam <strong>Pustaka Kalender Jawa</strong>:</p>
 <div class="content kjs">
 <ul>
-<li>Sistem siklus 210 hari atau 30 Wuku dimana tiap Wuku mempunyai siklus 7 hari. Sistem ini dikenal dengan nama Pawukon (Wuku) atau lebih sering dikenal dengan Zodiak Jawa. </li>
+<li>Sistem siklus 210 hari atau 30 Wuku dimana tiap Wuku mempunyai siklus 7 hari. Sistem Wuku ini lebih sering dikenal dengan nama Zodiak Jawa. </li>
 <li>Sistem pembagian hari menjadi 6, <em>sadwara</em> atau <em>paringkelan</em>.</li>
 <li>Sistem <em>tumbuk</em> dimana setiap 4 windu sekali terjadi keberulangan nama hari, tanggal, pasaran dan bulan.</li>
 <li>Sistem <em>lambang</em> dengan siklus 2 windu.</li>
@@ -43,36 +47,44 @@
 <tr>
 <th style="text-align:left">Urutan</th>
 <th style="text-align:left">Dinten</th>
+<th style="text-align:left">Hari (Masehi)</th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left">1</td>
 <td style="text-align:left">Senen</td>
+<td style="text-align:left">Senin</td>
 </tr>
 <tr>
 <td style="text-align:left">2</td>
+<td style="text-align:left">Selasa</td>
 <td style="text-align:left">Selasa</td>
 </tr>
 <tr>
 <td style="text-align:left">3</td>
 <td style="text-align:left">Rebo</td>
+<td style="text-align:left">Rabu</td>
 </tr>
 <tr>
 <td style="text-align:left">4</td>
 <td style="text-align:left">Kemis</td>
+<td style="text-align:left">Kamis</td>
 </tr>
 <tr>
 <td style="text-align:left">5</td>
 <td style="text-align:left">Jemah</td>
+<td style="text-align:left">Jumat</td>
 </tr>
 <tr>
 <td style="text-align:left">6</td>
 <td style="text-align:left">Sebtu</td>
+<td style="text-align:left">Sabtu</td>
 </tr>
 <tr>
 <td style="text-align:left">7</td>
 <td style="text-align:left">Akad</td>
+<td style="text-align:left">Minggu</td>
 </tr>
 </tbody>
 </table>
@@ -207,7 +219,7 @@
 <tr>
 <th style="text-align:center">Urutan</th>
 <th style="text-align:left">Tahun Jawa</th>
-<th style="text-align:center">hari/tahun</th>
+<th style="text-align:center">Hari/Tahun</th>
 </tr>
 </thead>
 <tbody>
