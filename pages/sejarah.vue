@@ -284,6 +284,13 @@
 <li>Sehingga, <strong>1 Suro (Mukarom) 1953 J</strong> bertepatan dengan hari <strong>Minggu Wage</strong>. </li>
 </ol>
 <hr>
+
+<div>
+  <h2>Referensi</h2>
+  <ol>
+    <li>Yudi Rohmat, <a href="https://www.caknun.com/2019/kalender-jowo-digowo-kalender-arab-digarap-kalender-barat-diruwat" title="kalender jowo digowo kalender arab diruwat"><i>Kalender Jowo Digowo Kalender Arab Diruwat</i></a>. caknun.com, 2019.</li>
+  </ol>
+</div>
     </div>
   </div>
 </template>
