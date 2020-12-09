@@ -26,11 +26,11 @@
 </ul>
 </div>
 <hr>
-<p>Beberapa sistematis berikut juga termasuk dalam Kalender Jawa hanya saja tidak (belum ada rencana) di implementasikan dalam <strong>Pustaka Kalender Jawa</strong> karena sifatnya yang pilihan:</p>
+<p>Beberapa sistematis berikut juga termasuk dalam Kalender Jawa hanya saja tidak (belum ada rencana) di implementasikan dalam <strong>Pustaka Kalender Jawa</strong>:</p>
 <div class="content kjs">
 <ul>
+<li>Sistem siklus 210 hari atau 30 Wuku dimana tiap Wuku mempunyai siklus 7 hari. Sistem ini dikenal dengan nama Pawukon (Wuku) atau lebih sering dikenal dengan Zodiak Jawa. </li>
 <li>Sistem pembagian hari menjadi 6, <em>sadwara</em> atau <em>paringkelan</em>.</li>
-<li>Sistem siklus 210 hari atau 30 Wuku dimana tiap Wuku mempunyai siklus 7 hari. Sistem ini dikenal dengan nama Pawukon.</li>
 <li>Sistem <em>tumbuk</em> dimana setiap 4 windu sekali terjadi keberulangan nama hari, tanggal, pasaran dan bulan.</li>
 <li>Sistem <em>lambang</em> dengan siklus 2 windu.</li>
 </ul>
