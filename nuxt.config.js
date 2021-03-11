@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Website Pustaka Kalender Jawa Abadi | JavaScript Library',
+    title: 'Pustaka | Kalender Jawa Abadi 2021',
     htmlAttrs: {
       lang: 'id'
     },
@@ -13,18 +13,18 @@ export default {
       { charset: 'utf-8' },
       { name: 'google-site-verification', content: 'nnMyQZtqIzLmDf0eyZKMXXy84S0u4A5G8zm2D1zCdmk' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Website Pustaka Kalender Jawa, Pustaka JavaScript untuk perhitungan, pengkonversian dan penanggalan Kalender Jawa Abadi' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Kalender Jawa Abadi 2921, Pustaka JavaScript untuk perhitungan, pengkonversian dan penanggalan Kalender Jawa Abadi' },
 
       { name: 'og:url', content: 'https://kalenderjawa.dev' },
       { name: 'og:locale', content: 'id_ID' },
-      { name: 'og:description', content: 'Website Pustaka Sumber Terbuka (Open Source) Kalender Jawa Abadi' },
+      { name: 'og:description', content: 'Pustaka Kalender Jawa Abadi' },
       { name: 'og:title', content: 'Kalender Jawa' },
       { name: 'og:type', content: 'website' },
 
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@junwatu' },
       { name: 'twitter:url', content: 'https://twitter.com/junwatu' },
-      { name: 'twitter:description', content: 'Website Pustaka Kalender Jawa, Pustaka JavaScript untuk perhitungan, pengkonversian dan penanggalan Kalender Jawa Abadi' }
+      { name: 'twitter:description', content: 'Pustaka Kalender Jawa, Pustaka JavaScript untuk perhitungan, pengkonversian dan penanggalan Kalender Jawa Abadi' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
