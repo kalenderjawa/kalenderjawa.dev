@@ -86,7 +86,7 @@ KalenderJawa.sasi('mukarom', 1953).then({ k, s } => {
 </template>
 
 <script>
-import * as KalenderJawa from '@kalenderjawa/pustaka'
+import * as KalenderJawa from '../node_modules/@kalenderjawa/pustaka/lib/kalenderjawa.min.js'
 
 export default {
   name: 'Sasi',
