@@ -13,7 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@kalenderjawa/pustaka": "^1.0.0-rc.2",
+    "@kalenderjawa/pustaka": "git+https://github.com/kalenderjawa/pustaka.git",
     "@nuxtjs/bulma": "^1.3.0",
     "@nuxtjs/pwa": "^3.2.2",
     "@nuxtjs/sitemap": "^2.4.0",
