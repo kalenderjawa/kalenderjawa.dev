@@ -27,7 +27,7 @@
             <span><a href="https://app.kalenderjawa.dev" class="app-link">Sengkala</a></span>
           </div>
           <div class="level-item">
-            <span> © 2020, <a href="https://sajen.id" class="grad-link">Equan Pr</a> & Kolaborator</span>
+            <span> © 2019 - 2021, <a href="https://sajen.id" class="grad-link">Equan Pr</a> & Kolaborator</span>
           </div>
         </div>
       </div>
