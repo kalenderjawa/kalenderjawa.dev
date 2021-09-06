@@ -8,6 +8,7 @@ export default {
     htmlAttrs: {
       lang: 'id'
     },
+    target: 'static',
     meta: [
       { charset: 'utf-8' },
       { name: 'google-site-verification', content: 'nnMyQZtqIzLmDf0eyZKMXXy84S0u4A5G8zm2D1zCdmk' },
