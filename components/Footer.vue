@@ -3,10 +3,10 @@
       <div class="level">
         <div class="level-left">
           <div class="level-item social">
-            <a href="https://twitter.com/KalenderJawaDev" title="Update kalender jawa tiap hari!">          
+            <a href="https://twitter.com/KalenderJawaDev" title="Bot Kalender Jawa 🤖">          
               <i class="fab fa-twitter fa-lg"></i>
             </a>
-            <a href="https://github.com/kalenderjawa" alt="Kalender Jawa Github" title="Fork & Pull!" target="_blank" rel="noopener"> 
+            <a href="https://github.com/kalenderjawa" alt="Kalender Jawa Github" title="Source Code 🚀" target="_blank" rel="noopener"> 
               <i class="fab fa-github fa-lg"></i>
             </a>
             <!---
