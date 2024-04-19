@@ -274,7 +274,7 @@
 <h2 id="rumus-matematis">Rumus Matematis</h2>
 <p>Kalender Jawa ini mempunyai keteraturan yang sangat luar biasa sehingga ditemukan pola-pola yang kemudian dirumuskan dan rumusan itu dengan mudah di buat menjadi suatu hafalan. Berdasarkan rumusan hari awal tahun kemudian didapatkan juga rumusan untuk hari-hari awal bulan pada masing-masing tahun dalam siklus windu.</p>
 <h3 id="rumus-hafalan-awal-bulan-kalender-jawa-abadi">Rumus Hafalan Awal Bulan Kalender Jawa Abadi</h3>
-<p> <img src="https://cdn.caknun.com/media/2019/01/20190102-menek-kalender-4.jpg" alt="rumus_awal_taun"></p>
+<p> <img src="https://caknun.com/media/2019/01/20190102-menek-kalender-4.jpg" alt="rumus_awal_taun"></p>
 <p>Contoh, untuk menentukan hari awal bulan <strong>Tahun Baru Suro (Mukarom) 1953 J</strong> (1 Muharom 1441 H, 1 September 2019 M), langkahnya adalah sebagai berikut:</p>
 <ol>
 <li>Tahun <strong>1953</strong> termasuk <strong>Tahun Wawu, Kurup Asapon (Alip Selasa Pon)</strong>.</li>
